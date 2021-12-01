@@ -1,5 +1,5 @@
 import './App.css';
-import { Router, Switch } from "react-router-dom";
+import { HashRouter as Router, Switch } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';

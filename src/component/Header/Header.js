@@ -75,7 +75,7 @@ export default function Header() {
                             </NavLink>
                         </div>
                         <div className="hidden lg:block lg:ml-6">
-                            <div className="flex space-x-4 p-32">
+                            <div className="flex space-x-4 px-32 py-16">
                                 <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Home</NavLink>
                                 <NavLink to="/about" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">About</NavLink>
                                 <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Instruction</NavLink>

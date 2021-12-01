@@ -1,18 +1,40 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './Instruction.css'
+import DATA from '../../data/post.json'
 
 export default function Instruction() {
     let optionsState;
     const [cur_category, set_category] = useState("Podcast");
     console.log(cur_category)
+    console.log(DATA)
 
     return (
-        <div className="m-20">
-            <select className='border border-black text-gold px-8 py-2' value={optionsState} onChange={(e) => set_category(e.target.value)}>
-                <option value="Podcast">Podcast</option>
-                <option value="Video">Video</option>
-            </select>
-            
+        <div className="m-2 sm:m-8 lg:m-12">
+            <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6'>
+                <select className='border border-black text-gold px-8 py-2 lg:col-start-6 col-span-1' value={optionsState} onChange={(e) => set_category(e.target.value)}>
+                    <option value="Podcast">Podcast</option>
+                    <option value="Video">Video</option>
+                </select>
+            </div>
+            <div className='grid sm-grid-cols-2 lg:grid-cols-3'>
+                {DATA &&
+                    DATA.filter(ap => { return ap.type === cur_category || cur_category === "all" }).map((filtered_post, index) => (
+                        <article className='px-4 py-4'>
+                            <img
+                                src={filtered_post.image_url}
+                                alt={filtered_post.name}
+                                className="w-full h-64 rounded-r object-cover"
+                            />
+                            <div className='sm:col-span-4 lg:col-span-9'>
+                                <h3 className="text-blue text-center text-xl lg:text-2xl font-blog py-2">
+                                    <b>{filtered_post.name}</b>
+                                </h3>
+                                <p className='secondary-font text-blue text-left text-xs sm:text-base lg:text-lg font-blog py-2'>{filtered_post.description}...</p>
+                            </div>
+                            <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg "><b>Practice</b></button>
+                        </article>
+                    ))}
+            </div>
         </div>
 
     )

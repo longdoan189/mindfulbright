@@ -4,6 +4,8 @@ import { createBrowserHistory } from 'history';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Instruction from './component/Instruction/Instruction'
+import About from './component/About/About';
+import Contact from './component/Contact/Contact';
 
 export const history = createBrowserHistory();
 
@@ -16,6 +18,8 @@ function App() {
         <Switch>
           <Home path="/" exact />
           <Home path="/home"/>
+          <About path="/about"/>
+          <Contact path="/contact"/>
           <Instruction path="/instruction"/>
         </Switch>
       </Router>

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mindfulbright/static/css/main.cee4db78.chunk.css",
+    "main.js": "/mindfulbright/static/js/main.31467e7d.chunk.js",
+    "main.js.map": "/mindfulbright/static/js/main.31467e7d.chunk.js.map",
+    "runtime-main.js": "/mindfulbright/static/js/runtime-main.162c9f25.js",
+    "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.162c9f25.js.map",
+    "static/css/2.e7166e2e.chunk.css": "/mindfulbright/static/css/2.e7166e2e.chunk.css",
+    "static/js/2.b16a68c0.chunk.js": "/mindfulbright/static/js/2.b16a68c0.chunk.js",
+    "static/js/2.b16a68c0.chunk.js.map": "/mindfulbright/static/js/2.b16a68c0.chunk.js.map",
+    "static/js/3.0f33e85f.chunk.js": "/mindfulbright/static/js/3.0f33e85f.chunk.js",
+    "static/js/3.0f33e85f.chunk.js.map": "/mindfulbright/static/js/3.0f33e85f.chunk.js.map",
+    "index.html": "/mindfulbright/index.html",
+    "static/css/2.e7166e2e.chunk.css.map": "/mindfulbright/static/css/2.e7166e2e.chunk.css.map",
+    "static/css/main.cee4db78.chunk.css.map": "/mindfulbright/static/css/main.cee4db78.chunk.css.map",
+    "static/js/2.b16a68c0.chunk.js.LICENSE.txt": "/mindfulbright/static/js/2.b16a68c0.chunk.js.LICENSE.txt",
+    "static/media/About.397f035d.PNG": "/mindfulbright/static/media/About.397f035d.PNG",
+    "static/media/Contact.b4435692.PNG": "/mindfulbright/static/media/Contact.b4435692.PNG",
+    "static/media/Home.a6ea3651.PNG": "/mindfulbright/static/media/Home.a6ea3651.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.162c9f25.js",
+    "static/css/2.e7166e2e.chunk.css",
+    "static/js/2.b16a68c0.chunk.js",
+    "static/css/main.cee4db78.chunk.css",
+    "static/js/main.31467e7d.chunk.js"
+  ]
+}

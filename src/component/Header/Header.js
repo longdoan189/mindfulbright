@@ -37,7 +37,7 @@ export default function Header() {
         start_show = true;
     }
     return (
-        <nav className="bg-white header_desktop fixed w-full border border-black">
+        <nav className="bg-white header_desktop fixed w-full">
             <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16 lg:h-24 xl:h-32 2xl:h-40">
                     {/* Mobile menu button*/}
@@ -70,16 +70,22 @@ export default function Header() {
                     <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start">
                         <div className="flex-shrink-0 flex items-center">
                             <NavLink to="/">
-                                <p className="block text-gold text-2xl xl:text-3xl"> MindFulbright </p>
-                                <p className="hidden text-gold text-lg"> MindFulbright </p>
+                                <p className="block text-2xl xl:text-3xl"> 
+                                    <span className='text-gold'>MindFulbright</span>
+                                    <span className='text-blue'>.</span>  
+                                </p>
+                                <p className="hidden text-lg"> 
+                                    <span className='text-gold'>MindFulbright</span>
+                                    <span className='text-blue'>.</span>  
+                                </p>
                             </NavLink>
                         </div>
                         <div className="hidden lg:block lg:ml-6">
                             <div className="flex space-x-4 px-32 py-16">
-                                <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Home</NavLink>
-                                <NavLink to="/about" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">About</NavLink>
-                                <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Instruction</NavLink>
-                                <NavLink to="/contact" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Contact</NavLink>
+                                <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Trang chính</NavLink>
+                                <NavLink to="/about" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Về MindFulbright</NavLink>
+                                <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Bài tập</NavLink>
+                                <NavLink to="/contact" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Liên hệ</NavLink>
                             </div>
                         </div>
                         <div className="hidden lg:block lg:ml-2">

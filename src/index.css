@@ -34,3 +34,10 @@ html {
 .text-blue {
   color: #00196E
 }
+
+
+.h-half {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+}

@@ -1,36 +1,49 @@
 [
     {
-        "name": "Finger Breathing", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "id": 0,
+        "name": "Thở ngón tay", 
+        "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một ‘trạm dừng' cùng 5 nhịp thở sâu.",
         "type": "Video",
         "image_url": "https://picsum.photos/201/300",
         "content": ""
     },
     {
-        "name": "Deep Relaxation", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "id": 1,
+        "name": "Thư giãn sâu", 
+        "description": "Thông qua các bài tập thư giãn giúp bạn giải toả căng thẳng cả trong cơ thể lẫn tâm trí, thư giãn sâu là cánh cửa dẫn bạn đến sự tồn tại trọn vẹn.",
         "type": "Video",
         "image_url": "https://picsum.photos/200/301",
         "content": ""
     },
     {
-        "name": "Mindful Breathing", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "id": 2,
+        "name": "Thở trong Chánh niệm", 
+        "description": "Thở trong Chánh niệm sẽ giúp bạn quay về an trú nơi hơi thở của mình. Dù cuộc đời hỗn loạn và rối ren đến đâu, ta đều có hơi thở để trở về. Thế nên bạn tôi ơi, hãy thở đi.",
         "type": "Video",
         "image_url": "https://picsum.photos/200/300",
         "content": ""
     },
     {
-        "name": "Mindful Drinking", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "id": 3,
+        "name": "Uống trong Chánh niệm", 
+        "description": "Việc thực hành uống trong chánh niệm giúp chúng ta sống luyện tập cách sống trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây. Dù bạn uống một cốc nước, hay thưởng một tách trà, hãy bắt đầu luyện tập làm điều đó bằng tất cả sự chú tâm.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/201/301",
         "content": ""
     },
     {
-        "name": "Mindful Movements", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "id": 4,
+        "name": "Vận động trong Chánh niệm", 
+        "description": "Hãy bắt đầu một ngày mới đầy năng lượng, hoặc kết thúc một ngày dài làm việc căng thẳng, hay thậm chí là tranh thủ khoảng thời gian nghỉ ngơi giữa ngày, bằng việc luyện tập thực hành các động tác di chuyển trong chánh niệm với bài tập ngắn sau đây.",
         "type": "Podcast",
+        "image_url": "https://picsum.photos/200/300",
+        "content": ""
+    },
+    {
+        "id": 5,
+        "name": "Vận động trong Chánh niệm", 
+        "description": "Hãy bắt đầu một ngày mới đầy năng lượng, hoặc kết thúc một ngày dài làm việc căng thẳng, hay thậm chí là tranh thủ khoảng thời gian nghỉ ngơi giữa ngày, bằng việc luyện tập thực hành các động tác di chuyển trong chánh niệm với bài tập ngắn sau đây.",
+        "type": "Video",
         "image_url": "https://picsum.photos/200/300",
         "content": ""
     }

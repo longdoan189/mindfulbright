@@ -5,7 +5,7 @@ import picture from '../../assets/Home.PNG'
 import Selected from './Selected'
 
 export default function Home() {
-    const { feeling, annoy, time, counter } = useSelector(state => state.SeletionReducer);
+    const { counter } = useSelector(state => state.SeletionReducer);
     const [openModal, setOpenModal] = useState(false);
     const [openSelected, setOpenSelected] = useState(false);
 

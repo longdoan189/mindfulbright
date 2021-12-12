@@ -2,19 +2,12 @@ import React from 'react'
 import DATA from '../../data/post.json'
 
 export default function ExerciseList(props) {
-    const {cur_category, allow_posts_id} = props
-    let max_value;
-    if (props.max_value) {
-        max_value = props.max_value
-    }
-    else {
-        max_value = 1000;
-    }
-    console.log(cur_category, allow_posts_id)
+    const {cur_category, allow_posts_id, shall_break} = props
+    console.log(cur_category, allow_posts_id, shall_break,)
     return (
-        <div className='grid sm-grid-cols-2 lg:grid-cols-3'>
+        <div className={'grid ' + (shall_break ? 'sm-grid-cols-2 lg:grid-cols-3' : 'grid-flow-col')}>
             {DATA &&
-                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_id == undefined || allow_posts_id.includes(ap.id)))}).slice(0,max_value).map((filtered_post, index) => (
+                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_id === undefined || allow_posts_id.includes(ap.id)))}).map((filtered_post, index) => (
                     <article className='px-4 py-4'>
                         <img
                             src={filtered_post.image_url}

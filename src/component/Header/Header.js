@@ -81,8 +81,8 @@ export default function Header() {
                             </NavLink>
                         </div>
                         <div className="hidden lg:block lg:ml-6">
-                            <div className="flex space-x-4 px-32 py-16">
-                                <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Trang chính</NavLink>
+                            <div className="flex space-x-12 px-24 py-16">
+                                <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Nhà</NavLink>
                                 <NavLink to="/about" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Về MindFulbright</NavLink>
                                 <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Bài tập</NavLink>
                                 <NavLink to="/contact" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Liên hệ</NavLink>
@@ -98,10 +98,10 @@ export default function Header() {
                 <div className="lg:hidden" id="mobile-menu">
                     <div className="px-2 pt-2 pb-3 space-y-1">
                         {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                        <NavLink to="/home" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Home</NavLink>
-                        <NavLink to="/about" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >About</NavLink>
-                        <NavLink to="/instruction" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Instruction</NavLink>
-                        <NavLink to="/contact" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Contact</NavLink>
+                        <NavLink to="/home" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Nhà</NavLink>
+                        <NavLink to="/about" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Về MindFulbright</NavLink>
+                        <NavLink to="/instruction" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Bài tập</NavLink>
+                        <NavLink to="/contact" className="text-blue block px-3 py-2 rounded-md text-base font-medium" onClick={() => toggleShow(false)} >Liên hệ</NavLink>
                     </div>
                 </div>
             }

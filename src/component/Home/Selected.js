@@ -44,7 +44,7 @@ export default function Selected(props) {
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border w-7/8 h-screen shadow-lg rounded-md bg-white">
-                <p className='text-5xl text-center'>
+                <p className='text-5xl text-right mr-4'>
                     <span className='text-gold'>Hôm nay</span>
                     <span className='text-blue'>, bạn có thể thử</span>
                     <div className="modal-close cursor-pointer inline-block ml-64" onClick={() => {toggleOpen(false); dispatch({type: "RESET_SELECTION"})}}>
@@ -53,7 +53,9 @@ export default function Selected(props) {
                         </svg>
                     </div>
                 </p>
-                <ExerciseList allow_posts_id={allow_posts_id} max_value={3} />
+                <div className='mt-12 overflow-y-scroll' style={{height: '80%'}}>
+                    <ExerciseList allow_posts_id={allow_posts_id} shall_break={false} />
+                </div>
             </div>
         </div>
     )

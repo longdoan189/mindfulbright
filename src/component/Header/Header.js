@@ -69,16 +69,14 @@ export default function Header() {
                     {/* Desktop menu */}
                     <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start">
                         <div className="flex-shrink-0 flex items-center">
-                            <NavLink to="/">
-                                <p className="block text-2xl xl:text-3xl"> 
-                                    <span className='text-gold'>MindFulbright</span>
-                                    <span className='text-blue'>.</span>  
-                                </p>
-                                <p className="hidden text-lg"> 
-                                    <span className='text-gold'>MindFulbright</span>
-                                    <span className='text-blue'>.</span>  
-                                </p>
-                            </NavLink>
+                            <p className="block text-2xl xl:text-3xl"> 
+                                <span className='text-gold'>MindFulbright</span>
+                                <span className='text-blue'>.</span>  
+                            </p>
+                            <p className="hidden text-lg"> 
+                                <span className='text-gold'>MindFulbright</span>
+                                <span className='text-blue'>.</span>  
+                            </p>
                         </div>
                         <div className="hidden lg:block lg:ml-6">
                             <div className="flex space-x-12 px-24 py-16">

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mindfulbright/static/css/main.9c9d7c60.chunk.css",
-    "main.js": "/mindfulbright/static/js/main.f938a32e.chunk.js",
-    "main.js.map": "/mindfulbright/static/js/main.f938a32e.chunk.js.map",
+    "main.css": "/mindfulbright/static/css/main.104adfb6.chunk.css",
+    "main.js": "/mindfulbright/static/js/main.789ab97e.chunk.js",
+    "main.js.map": "/mindfulbright/static/js/main.789ab97e.chunk.js.map",
     "runtime-main.js": "/mindfulbright/static/js/runtime-main.213558d1.js",
     "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.213558d1.js.map",
     "static/css/2.e7166e2e.chunk.css": "/mindfulbright/static/css/2.e7166e2e.chunk.css",
@@ -12,14 +12,13 @@
     "static/js/3.e518b506.chunk.js.map": "/mindfulbright/static/js/3.e518b506.chunk.js.map",
     "index.html": "/mindfulbright/index.html",
     "static/css/2.e7166e2e.chunk.css.map": "/mindfulbright/static/css/2.e7166e2e.chunk.css.map",
-    "static/css/main.9c9d7c60.chunk.css.map": "/mindfulbright/static/css/main.9c9d7c60.chunk.css.map",
+    "static/css/main.104adfb6.chunk.css.map": "/mindfulbright/static/css/main.104adfb6.chunk.css.map",
     "static/js/2.d0dd59ec.chunk.js.LICENSE.txt": "/mindfulbright/static/js/2.d0dd59ec.chunk.js.LICENSE.txt",
     "static/media/15 min.1c077303.svg": "/mindfulbright/static/media/15 min.1c077303.svg",
     "static/media/30 min.e72281ea.svg": "/mindfulbright/static/media/30 min.e72281ea.svg",
-    "static/media/45 min.019826ac.svg": "/mindfulbright/static/media/45 min.019826ac.svg",
+    "static/media/45 min.c187d89b.svg": "/mindfulbright/static/media/45 min.c187d89b.svg",
     "static/media/Contact.b4435692.PNG": "/mindfulbright/static/media/Contact.b4435692.PNG",
-    "static/media/MindFulbright.52f0aa87.jpg": "/mindfulbright/static/media/MindFulbright.52f0aa87.jpg",
-    "static/media/chani angry.0cff219b.svg": "/mindfulbright/static/media/chani angry.0cff219b.svg",
+    "static/media/MindFulbright.bd454bac.jpg": "/mindfulbright/static/media/MindFulbright.bd454bac.jpg",
     "static/media/chani anxious.c59af6c0.svg": "/mindfulbright/static/media/chani anxious.c59af6c0.svg",
     "static/media/chani calm.1b2466e5.svg": "/mindfulbright/static/media/chani calm.1b2466e5.svg",
     "static/media/chani depress.848420a7.svg": "/mindfulbright/static/media/chani depress.848420a7.svg",
@@ -34,7 +33,7 @@
     "static/js/runtime-main.213558d1.js",
     "static/css/2.e7166e2e.chunk.css",
     "static/js/2.d0dd59ec.chunk.js",
-    "static/css/main.9c9d7c60.chunk.css",
-    "static/js/main.f938a32e.chunk.js"
+    "static/css/main.104adfb6.chunk.css",
+    "static/js/main.789ab97e.chunk.js"
   ]
 }

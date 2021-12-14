@@ -66,8 +66,8 @@ const FormContact = () => {
     return (
         <div className=''>
             <form className="w-screen sm:w-full" onSubmit={handleSubmit(onSubmit)} noValidate>
-                <h1 className='text-3xl text-center'>{"Liên lạc với chúng tôi tại đây"}</h1>
-                <div className='grid grid-cols-2 gap-4 mt-10 sm:mt-12 lg:mt-0'>
+                <h1 className='text-3xl text-center text-blue'>{"Liên lạc với MindFulbright"}</h1>
+                <div className='grid grid-cols-2 gap-4 mt-10 sm:mt-12 lg:mt-4'>
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full px-3">
                             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">

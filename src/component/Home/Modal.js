@@ -1,9 +1,9 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import happy_icon from '../../assets/icons/chani happy.svg'
-import angry_icon from '../../assets/icons/chani angry.svg'
+//import angry_icon from '../../assets/icons/chani angry.svg'
 import anxious_icon from '../../assets/icons/chani anxious.svg'
-import calm_icon from '../../assets/icons/chani calm.svg'
+//import calm_icon from '../../assets/icons/chani calm.svg'
 import depress_icon from '../../assets/icons/chani depress.svg'
 import fun_icon from '../../assets/icons/chani fun.svg'
 import headache_icon from '../../assets/icons/chani headache.svg'
@@ -92,7 +92,7 @@ export default function Modal(props) {
                         </button>
                         <button onClick={() => dispatch({type: "SELECT_TIME", value: "60"})} className={'' + (time==="60" ? 'h-24' : 'h-16')}>
                             <img src={time_60} className='h-full mx-auto' alt="60"/>
-                            <p>45 phút</p>
+                            <p>60 phút</p>
                         </button>
                     </div>
                 </div>

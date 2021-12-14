@@ -70,7 +70,7 @@ const FormContact = () => {
                 <div className='grid grid-cols-2 gap-4 mt-10 sm:mt-12 lg:mt-4'>
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full px-3">
-                            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-blue">
                                 {"Họ tên"}
                             </label>
                             <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -88,7 +88,7 @@ const FormContact = () => {
                     </div>
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full px-3">
-                            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-blue">
                                 {"Thư điện tử"}
                             </label>
                             <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -107,7 +107,7 @@ const FormContact = () => {
                 </div>
                 <div className='flex flex-wrap -mx-3 mb-6'>
                     <div className='w-full px-3'>
-                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-blue">
                             {"Tiêu đề"}
                         </label>
                         <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -128,7 +128,7 @@ const FormContact = () => {
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-6">
                     <div className="w-full px-3">
-                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-blue">
                             {"Nội dung"}
                         </label>
                         <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"
@@ -144,8 +144,8 @@ const FormContact = () => {
                 </div>
                 <div className="md:flex md:items-center">
                     <div className="md:w-full">
-                        <button className="shadow bg-red-400 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded w-full" type="submit">
-                            Send
+                        <button className="shadow btn-blue focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded w-full" type="submit">
+                            Gửi
                         </button>
                     </div>
                 </div>

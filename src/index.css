@@ -34,3 +34,13 @@ html {
 .text-blue {
   color: #00196E
 }
+
+.btn-blue {
+  background-color: #00196E;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #FFAD1C;
+  color: white;
+}

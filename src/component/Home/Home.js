@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import Modal from './Modal'
-import picture from '../../assets/Home.PNG'
+import picture from '../../assets/icons/chani calm.svg'
 import Selected from './Selected'
+import './Home.css'
 
 export default function Home() {
     const { counter } = useSelector(state => state.SeletionReducer);
@@ -25,7 +26,7 @@ export default function Home() {
                     <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block" onClick={() => {setOpenModal(true)}}><b>Tìm hiểu thêm</b></button>
                 </div>
                 <div className='ml-2 sm:ml-16 lg:ml-32 mr-12 '>
-                    <img src={picture} alt="MindFulbright"/>
+                    <img src={picture} alt="MindFulbright" className='pic-size'/>
                 </div>
             </div>
             <Selected isOpen={openSelected} toggleOpen={setOpenSelected}/>

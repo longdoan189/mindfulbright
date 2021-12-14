@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211.751" height="196.466" viewBox="0 0 211.751 196.466">
+  <title>chani fun</title>
+  <g>
+    <path d="M90.125,170.105v24.682s-9.7-15.641-11.922-8.532" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.359"/>
+    <path d="M121.7,170.105v24.682s9.7-15.641,11.921-8.532" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.359"/>
+    <path d="M47.66,59.261,18.8,12.456S6.03,24.352,1.679,15.865" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.359"/>
+    <path d="M164.091,59.261l28.863-46.805s12.766,11.9,17.117,3.409" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.359"/>
+    <path d="M201.108,87.131c-.179,16.121-17.39,27.618-25.065,40.551-7.918,13.344-9.99,33.876-23.5,41.5-13.1,7.387-31.548-1.279-47.669-1.458s-34.756,8.079-47.691.4c-13.342-7.918-14.961-28.49-22.581-42.006-7.388-13.1-24.341-24.974-24.162-41.095S27.823,57.408,35.5,44.474C43.416,31.13,45.487,10.6,59,2.977c13.1-7.387,31.55,1.278,47.67,1.457s34.757-8.079,47.69-.4c13.345,7.918,14.961,28.49,22.583,42.006C184.333,59.137,201.286,71.01,201.108,87.131Z" fill="#ffad1c"/>
+    <circle cx="96.392" cy="35.859" r="2.668" fill="#001171"/>
+    <circle cx="118.215" cy="35.859" r="2.668" fill="#001171"/>
+    <path d="M72.242,39.373a82.4,82.4,0,0,0,35.021,8.438,82.478,82.478,0,0,0,37.521-8.438" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.359"/>
+  </g>
+</svg>

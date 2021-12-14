@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.873" height="297.873" viewBox="0 0 297.873 297.873">
+  <title>30</title>
+  <g>
+    <path d="M148.936,47.006V248.628a21.5,21.5,0,0,0,26,21,124.563,124.563,0,0,0,0-243.627A21.5,21.5,0,0,0,148.936,47.006Z" fill="#ffad1c"/>
+    <g>
+      <circle cx="148.936" cy="148.936" r="146.387" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.098"/>
+      <g>
+        <circle cx="148.936" cy="27.851" r="4.782" fill="#001171"/>
+        <circle cx="148.936" cy="270.022" r="4.782" fill="#001171"/>
+        <circle cx="270.022" cy="148.936" r="4.782" fill="#001171"/>
+        <circle cx="27.851" cy="148.936" r="4.782" fill="#001171"/>
+      </g>
+    </g>
+    <polyline points="81.877 61.534 148.936 153.718 188.09 107.626" fill="none" stroke="#001171" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.098"/>
+  </g>
+</svg>

@@ -9,8 +9,8 @@ export default function About() {
                 <img className='' src={picture} alt="About"/>
                 <div className='grid lg:grid-cols-2 mt-12'>
                     <div>
-                        <h1 className='text-3xl text-blue'>Address</h1>
-                        <p className='mt-2 mb-4'>105 Ton Dat Tien, Tan Phu Ward, Q.7, HCMC, Vietnam</p>
+                        <h1 className='text-3xl text-blue'>Địa chỉ </h1>
+                        <p className='mt-2 mb-4'>105 Tôn Dật Tiên, Phường Tân Phú, Quận 7, TpHCM, Việt Nam</p>
                     </div>
                     <div>
                         <h1 className='text-3xl text-blue'>Call us</h1>

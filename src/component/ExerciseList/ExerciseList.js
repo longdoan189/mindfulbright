@@ -5,7 +5,7 @@ export default function ExerciseList(props) {
     const {cur_category, allow_posts_id, shall_break, className} = props
     console.log(cur_category, allow_posts_id, shall_break,)
     return (
-        <div className={ className + ' grid ' + (shall_break ? 'sm-grid-cols-2 lg:grid-cols-3' : 'grid-flow-col')}>
+        <div className={ className + ' grid ' + (shall_break ? 'sm:grid-cols-2 lg:grid-cols-3' : 'grid-flow-col')}>
             {DATA &&
                 DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_id === undefined || allow_posts_id.includes(ap.id)))}).map((filtered_post, index) => (
                     <article className='px-4 py-4'>

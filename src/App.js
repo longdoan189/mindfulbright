@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Router history={history}>
         <Header/>
-        <div className="pt-48 sm:pt-32"></div>
+        <div className="pt-20 sm:pt-32"></div>
         <Switch>
           <Home path="/" exact />
           <Home path="/home"/>

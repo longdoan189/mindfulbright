@@ -44,7 +44,7 @@ export default function Selected(props) {
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border w-7/8 h-screen shadow-lg rounded-md bg-white">
-                <p className='text-5xl text-right mr-4'>
+                <p className='text-xl sm:text-3xl lg:text-5xl text-right mr-4'>
                     <div className='mr-32 inline-block'>
                         <span className='text-gold'>Hôm nay</span>
                         <span className='text-blue'>, bạn có thể thử</span>
@@ -56,7 +56,7 @@ export default function Selected(props) {
                     </div>
                 </p>
                 <div className='mt-12 overflow-y-scroll' style={{height: '80%'}}>
-                    <ExerciseList allow_posts_id={allow_posts_id} shall_break={false} />
+                    <ExerciseList allow_posts_id={allow_posts_id} shall_break={true} />
                 </div>
             </div>
         </div>

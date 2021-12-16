@@ -144,7 +144,7 @@ const FormContact = () => {
                 </div>
                 <div className="md:flex md:items-center">
                     <div className="md:w-full">
-                        <button className="shadow btn-blue focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded w-full" type="submit">
+                        <button className="shadow background-gold hover:text-yellow-500 font-bold py-2 px-4 rounded w-full" type="submit">
                             Gửi
                         </button>
                     </div>

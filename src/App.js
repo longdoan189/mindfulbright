@@ -6,7 +6,9 @@ import Instruction from './component/Instruction/Instruction'
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Exercise from './component/ExerciseList/SingleExercise';
+import { createHashHistory } from 'history';
 
+export const history = createHashHistory();
 
 function App() {
   return (

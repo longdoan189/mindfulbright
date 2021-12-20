@@ -25,6 +25,31 @@
   width: 60%;
   padding-top: 10%; /* Audio bar Aspect Ratio */
 }
+@media only screen and (max-width: 900px) {
+  .container-iframe-audio {
+    padding-top: 15%; /* Audio bar Aspect Ratio */
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .container-iframe-audio {
+    padding-top: 20%; /* Audio bar Aspect Ratio */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container-iframe-audio {
+    padding-top: 25%; /* Audio bar Aspect Ratio */
+    width:100%
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container-iframe-audio {
+    padding-top: 35%; /* Audio bar Aspect Ratio */
+    width:100%
+  }
+}
 
 .container-iframe-no {
   position: relative;

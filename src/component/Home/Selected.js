@@ -6,39 +6,39 @@ export default function Selected(props) {
     const dispatch = useDispatch();
     const { annoy, time } = useSelector(state => state.SeletionReducer);
     const { isOpen, toggleOpen } = props;
-    let allow_posts_id = []
+    let allow_posts_num = []
     if (annoy === 'kho_thu_gian') {
-        allow_posts_id.push(1);
+        allow_posts_num.push(1);
         if (time === '15') {
-            allow_posts_id.push(0);
-            allow_posts_id.push(3);
+            allow_posts_num.push(0);
+            allow_posts_num.push(3);
         }
     }
     else if (annoy === 'kho_tap_trung') {
-        allow_posts_id.push(4);
-        allow_posts_id.push(5);
+        allow_posts_num.push(4);
+        allow_posts_num.push(5);
         if (time === '15' || time === '30') {
-            allow_posts_id.push(2);
+            allow_posts_num.push(2);
         }
     }
     else if (annoy === 'cang_thang' || annoy === 'kho_ngu') {
-        allow_posts_id.push(1);
-        allow_posts_id.push(4);
-        allow_posts_id.push(5);
+        allow_posts_num.push(1);
+        allow_posts_num.push(4);
+        allow_posts_num.push(5);
         if (time === '15') {
-            allow_posts_id.push(0);
-            allow_posts_id.push(2);
-            allow_posts_id.push(3);
+            allow_posts_num.push(0);
+            allow_posts_num.push(2);
+            allow_posts_num.push(3);
         }
         else if (time === '30') {
-            allow_posts_id.push(2);
+            allow_posts_num.push(2);
         }
     }
 
     else if (annoy === 'lo_lang') {
-        allow_posts_id.push(1);
-        allow_posts_id.push(4);
-        allow_posts_id.push(5);
+        allow_posts_num.push(1);
+        allow_posts_num.push(4);
+        allow_posts_num.push(5);
     }
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>
@@ -55,7 +55,7 @@ export default function Selected(props) {
                     </div>
                 </p>
                 <div className='mt-12 overflow-y-scroll' style={{height: '80%'}}>
-                    <ExerciseList allow_posts_id={allow_posts_id} shall_break={true} />
+                    <ExerciseList allow_posts_num={allow_posts_num} shall_break={true} />
                 </div>
             </div>
         </div>

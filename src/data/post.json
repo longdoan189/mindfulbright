@@ -1,5 +1,6 @@
 [
     {
+        "num": 0,
         "id": "tho-ngon-tay",
         "name": "Thở ngón tay", 
         "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một 'trạm dừng' cùng 5 nhịp thở sâu.",
@@ -8,6 +9,7 @@
         "content": ""
     },
     {
+        "num": 1,
         "id": "thu-gian-sau",
         "name": "Thư giãn sâu", 
         "description": "Thông qua các bài tập thư giãn giúp bạn giải toả căng thẳng cả trong cơ thể lẫn tâm trí, thư giãn sâu là cánh cửa dẫn bạn đến sự tồn tại trọn vẹn.",
@@ -16,6 +18,7 @@
         "content": ""
     },
     {
+        "num": 2,
         "id": "tho-trong-chanh-niem",
         "name": "Thở trong Chánh niệm", 
         "description": "Thở trong Chánh niệm sẽ giúp bạn quay về an trú nơi hơi thở của mình. COVID-19 đã nhắc chúng ta nhớ đến giá trị vô cùng của hơi thở. Dù cuộc đời hỗn loạn đến đâu, ta đều có hơi thở để trở về. Thế nên bạn tôi ơi, hãy thở đi.",
@@ -24,6 +27,7 @@
         "content": ""
     },
     {
+        "num": 3,
         "id": "uong-trong-chanh-niem",
         "name": "Uống trong Chánh niệm", 
         "description": "Uống trong chánh niệm giúp chúng ta trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây. Dù là nước, trà, hay trà sữa, ta đều có thể hiện diện trong từng ngụm uống, từ đó trân trọng hơn những món quà cuộc sống dành cho ta.",
@@ -32,6 +36,7 @@
         "content": "https://drive.google.com/file/d/1RbucxJrEgHkzzVOgfIR_4CD0zTfQG0Ms/view?usp=sharing"
     },
     {
+        "num": 4,
         "id": "van-dong-trong-chanh-niem-podcast",
         "name": "Vận động trong Chánh niệm", 
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
@@ -40,6 +45,7 @@
         "content": ""
     },
     {
+        "num": 5,
         "id": "van-dong-trong-chanh-niem-video",
         "name": "Vận động trong Chánh niệm", 
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",

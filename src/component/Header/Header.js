@@ -39,7 +39,7 @@ export default function Header() {
     return (
         <nav className="bg-white header_desktop fixed w-full">
             <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-8">
-                <div className="relative flex items-center justify-between h-16 lg:h-24 xl:h-32 2xl:h-40">
+                <div className="relative flex items-center justify-between h-16 sm:h-24 2xl:h-32">
                     {/* Mobile menu button*/}
                     <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                         <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset f9ocus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onClick={() => toggleShow(!show)}>

@@ -11,7 +11,6 @@ export default function Home() {
     const [openSelected, setOpenSelected] = useState(false);
 
     useEffect(() => {
-        console.log(counter, '- Has changed')
         if (counter === 3) {
             setOpenModal(false);
             setOpenSelected(true);

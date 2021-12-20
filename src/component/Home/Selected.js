@@ -40,7 +40,6 @@ export default function Selected(props) {
         allow_posts_id.push(4);
         allow_posts_id.push(5);
     }
-    console.log(allow_posts_id)
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border w-7/8 h-screen shadow-lg rounded-md bg-white">

@@ -4,7 +4,7 @@ import picture from '../../assets/MindFulbright.jpg'
 export default function About() {
     return (
         <div className='grid lg:grid-cols-2 gap-2 mt-2'>
-            <img className='mx-auto' style={{"height": "75vh"}} src={picture} alt="About"/>
+            <img className='mx-auto' style={{"height": "80vh"}} src={picture} alt="About"/>
             <div className='sm:ml-8 mt-8'>
                 <h1 className='text-3xl sm:text-5xl text-center'>
                     <span className='text-blue'>MindFulbright</span>

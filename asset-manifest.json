@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mindfulbright/static/css/main.bc5695c8.chunk.css",
-    "main.js": "/mindfulbright/static/js/main.949fc71d.chunk.js",
-    "main.js.map": "/mindfulbright/static/js/main.949fc71d.chunk.js.map",
-    "runtime-main.js": "/mindfulbright/static/js/runtime-main.213558d1.js",
-    "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.213558d1.js.map",
+    "main.css": "/mindfulbright/static/css/main.aa839017.chunk.css",
+    "main.js": "/mindfulbright/static/js/main.97f875ef.chunk.js",
+    "main.js.map": "/mindfulbright/static/js/main.97f875ef.chunk.js.map",
+    "runtime-main.js": "/mindfulbright/static/js/runtime-main.aaf440da.js",
+    "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.aaf440da.js.map",
     "static/css/2.e7166e2e.chunk.css": "/mindfulbright/static/css/2.e7166e2e.chunk.css",
-    "static/js/2.d0dd59ec.chunk.js": "/mindfulbright/static/js/2.d0dd59ec.chunk.js",
-    "static/js/2.d0dd59ec.chunk.js.map": "/mindfulbright/static/js/2.d0dd59ec.chunk.js.map",
-    "static/js/3.e518b506.chunk.js": "/mindfulbright/static/js/3.e518b506.chunk.js",
-    "static/js/3.e518b506.chunk.js.map": "/mindfulbright/static/js/3.e518b506.chunk.js.map",
+    "static/js/2.46aef988.chunk.js": "/mindfulbright/static/js/2.46aef988.chunk.js",
+    "static/js/2.46aef988.chunk.js.map": "/mindfulbright/static/js/2.46aef988.chunk.js.map",
+    "static/js/3.558234dc.chunk.js": "/mindfulbright/static/js/3.558234dc.chunk.js",
+    "static/js/3.558234dc.chunk.js.map": "/mindfulbright/static/js/3.558234dc.chunk.js.map",
     "index.html": "/mindfulbright/index.html",
     "static/css/2.e7166e2e.chunk.css.map": "/mindfulbright/static/css/2.e7166e2e.chunk.css.map",
-    "static/css/main.bc5695c8.chunk.css.map": "/mindfulbright/static/css/main.bc5695c8.chunk.css.map",
-    "static/js/2.d0dd59ec.chunk.js.LICENSE.txt": "/mindfulbright/static/js/2.d0dd59ec.chunk.js.LICENSE.txt",
+    "static/css/main.aa839017.chunk.css.map": "/mindfulbright/static/css/main.aa839017.chunk.css.map",
+    "static/js/2.46aef988.chunk.js.LICENSE.txt": "/mindfulbright/static/js/2.46aef988.chunk.js.LICENSE.txt",
     "static/media/15 min.1c077303.svg": "/mindfulbright/static/media/15 min.1c077303.svg",
     "static/media/30 min.e72281ea.svg": "/mindfulbright/static/media/30 min.e72281ea.svg",
     "static/media/45 min.c187d89b.svg": "/mindfulbright/static/media/45 min.c187d89b.svg",
@@ -30,10 +30,10 @@
     "static/media/chani worry.e8bb3b13.svg": "/mindfulbright/static/media/chani worry.e8bb3b13.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.213558d1.js",
+    "static/js/runtime-main.aaf440da.js",
     "static/css/2.e7166e2e.chunk.css",
-    "static/js/2.d0dd59ec.chunk.js",
-    "static/css/main.bc5695c8.chunk.css",
-    "static/js/main.949fc71d.chunk.js"
+    "static/js/2.46aef988.chunk.js",
+    "static/css/main.aa839017.chunk.css",
+    "static/js/main.97f875ef.chunk.js"
   ]
 }

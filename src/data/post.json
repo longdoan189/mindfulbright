@@ -5,7 +5,7 @@
         "name": "Thở ngón tay", 
         "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một 'trạm dừng' cùng 5 nhịp thở sâu.",
         "type": "Video",
-        "image_url": "https://picsum.photos/201/300",
+        "image_url": "https://picsum.photos/seed/802/800/600",
         "content": ""
     },
     {
@@ -14,7 +14,7 @@
         "name": "Thư giãn sâu", 
         "description": "Thông qua các bài tập thư giãn giúp bạn giải toả căng thẳng cả trong cơ thể lẫn tâm trí, thư giãn sâu là cánh cửa dẫn bạn đến sự tồn tại trọn vẹn.",
         "type": "Video",
-        "image_url": "https://picsum.photos/200/301",
+        "image_url": "https://picsum.photos/seed/200/800/600",
         "content": ""
     },
     {
@@ -23,7 +23,7 @@
         "name": "Thở trong Chánh niệm", 
         "description": "Thở trong Chánh niệm sẽ giúp bạn quay về an trú nơi hơi thở của mình. COVID-19 đã nhắc chúng ta nhớ đến giá trị vô cùng của hơi thở. Dù cuộc đời hỗn loạn đến đâu, ta đều có hơi thở để trở về. Thế nên bạn tôi ơi, hãy thở đi.",
         "type": "Video",
-        "image_url": "https://picsum.photos/200/300",
+        "image_url": "https://picsum.photos/seed/123/800/600",
         "content": ""
     },
     {
@@ -32,7 +32,7 @@
         "name": "Uống trong Chánh niệm", 
         "description": "Uống trong chánh niệm giúp chúng ta trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây. Dù là nước, trà, hay trà sữa, ta đều có thể hiện diện trong từng ngụm uống, từ đó trân trọng hơn những món quà cuộc sống dành cho ta.",
         "type": "Podcast",
-        "image_url": "https://picsum.photos/201/301",
+        "image_url": "https://picsum.photos/seed/506/800/600",
         "content": "https://drive.google.com/file/d/1RbucxJrEgHkzzVOgfIR_4CD0zTfQG0Ms/view?usp=sharing"
     },
     {
@@ -41,7 +41,7 @@
         "name": "Vận động trong Chánh niệm", 
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
         "type": "Podcast",
-        "image_url": "https://picsum.photos/200/300",
+        "image_url": "https://picsum.photos/seed/500/800/600",
         "content": ""
     },
     {
@@ -50,7 +50,7 @@
         "name": "Vận động trong Chánh niệm", 
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
         "type": "Video",
-        "image_url": "https://picsum.photos/200/300",
+        "image_url": "https://picsum.photos/seed/500/800/600",
         "content": "https://drive.google.com/file/d/1uV9q1sz9EUShKfiou0ehqH9KMFwc4JCB/preview"
     }
 ]

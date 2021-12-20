@@ -18,7 +18,9 @@ export default function ExerciseList(props) {
                             <h3 className="text-blue text-center text-xl lg:text-2xl font-blog py-2">
                                 <b>{filtered_post.name}</b>
                             </h3>
-                            <p className='secondary-font text-blue text-left text-xs sm:text-base lg:text-lg font-blog py-2 h-32 lg:h-64 xl:h-48 align-middle'>{filtered_post.description.slice(0,250)}</p>
+                            <div className='flex secondary-font text-left text-xs sm:text-base lg:text-lg font-blog py-2 h-32 lg:h-64 xl:h-48 '>
+                                <p className='my-auto'>{filtered_post.description.slice(0,250)}</p>
+                            </div>
                         </div>
                         <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block">
                             <NavLink to={`/instruction/${filtered_post.id}`}>

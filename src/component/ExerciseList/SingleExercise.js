@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import {history} from "../../App"
 import DATA from '../../data/post.json'
 import './SingleExercise.css'
@@ -75,14 +75,14 @@ export default function Exercise(props) {
 
     return (
         <div className="w-100">
-            <div className="lg:grid lg:grid-cols-3">
-                <button className="text-sm md:text-lg background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block" onClick={history.goBack}>
-                    <b>Xem các bài tập khác</b>
-                </button>
-                <h1 className="text-4xl text-blue text-center mx-8 col-span-2">{curExercise.name}</h1>
+            <div className="">
+                <h1 className="text-4xl text-blue text-center mx-8">{curExercise.name}</h1>
             </div>
             <h1 className="text-xl text-blue text-left mx-8 sm:mx-20 lg:mx-40 my-8">{curExercise.description}</h1>
             {renderContent()}
+            <button className="text-sm background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block" onClick={history.goBack}>
+                <b>Xem các bài tập khác</b>
+            </button>
         </div>
 
     )

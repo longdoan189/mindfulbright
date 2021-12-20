@@ -22,11 +22,12 @@ export default function ExerciseList(props) {
                                 <p className='my-auto'>{filtered_post.description.slice(0,250)}</p>
                             </div>
                         </div>
-                        <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block">
-                            <NavLink to={`/instruction/${filtered_post.id}`}>
+                        
+                        <NavLink to={`/instruction/${filtered_post.id}`}>
+                            <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block">
                                 <b>Xem bài tập</b>
-                            </NavLink>
-                        </button>
+                            </button>
+                        </NavLink>
                     </article>
                 ))}
         </div>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mindfulbright/static/css/main.25827657.chunk.css",
-    "main.js": "/mindfulbright/static/js/main.e5ce45eb.chunk.js",
-    "main.js.map": "/mindfulbright/static/js/main.e5ce45eb.chunk.js.map",
+    "main.js": "/mindfulbright/static/js/main.72883fa4.chunk.js",
+    "main.js.map": "/mindfulbright/static/js/main.72883fa4.chunk.js.map",
     "runtime-main.js": "/mindfulbright/static/js/runtime-main.aaf440da.js",
     "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.aaf440da.js.map",
     "static/css/2.e7166e2e.chunk.css": "/mindfulbright/static/css/2.e7166e2e.chunk.css",
@@ -18,7 +18,6 @@
     "static/media/30 min.e72281ea.svg": "/mindfulbright/static/media/30 min.e72281ea.svg",
     "static/media/45 min.c187d89b.svg": "/mindfulbright/static/media/45 min.c187d89b.svg",
     "static/media/Contact.b4435692.PNG": "/mindfulbright/static/media/Contact.b4435692.PNG",
-    "static/media/MindFulbright.bd454bac.jpg": "/mindfulbright/static/media/MindFulbright.bd454bac.jpg",
     "static/media/chani anxious.c59af6c0.svg": "/mindfulbright/static/media/chani anxious.c59af6c0.svg",
     "static/media/chani calm.1b2466e5.svg": "/mindfulbright/static/media/chani calm.1b2466e5.svg",
     "static/media/chani depress.848420a7.svg": "/mindfulbright/static/media/chani depress.848420a7.svg",
@@ -34,6 +33,6 @@
     "static/css/2.e7166e2e.chunk.css",
     "static/js/2.3a96d223.chunk.js",
     "static/css/main.25827657.chunk.css",
-    "static/js/main.e5ce45eb.chunk.js"
+    "static/js/main.72883fa4.chunk.js"
   ]
 }

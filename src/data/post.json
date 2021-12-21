@@ -48,7 +48,7 @@
         "num": 5,
         "id": "thien-10p",
         "name": "Thiền 10 phút", 
-        "description": "Cùng Chani thực hiện bài thiền 10 phút nhé!",
+        "description": "Cuộc đời này ta có bao nhiêu lần 10 phút? Và bao nhiêu trong số đó là những giây phút nghỉ ngơi? Bài Thiền 10 phút sẽ giúp bạn tạm quên đi bộn bề cuộc sống và có 10 phút được lắng với chính mình.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/500/800/600",
         "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635660%3Fsecret_token%3Ds-U5IEovoAloZ&color=%23ff5500"

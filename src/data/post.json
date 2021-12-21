@@ -13,9 +13,9 @@
         "id": "thu-gian-sau",
         "name": "Thư giãn sâu", 
         "description": "Thông qua các bài tập thư giãn giúp bạn giải toả căng thẳng cả trong cơ thể lẫn tâm trí, thư giãn sâu là cánh cửa dẫn bạn đến sự tồn tại trọn vẹn.",
-        "type": "Video",
+        "type": "Podcast",
         "image_url": "https://picsum.photos/seed/200/800/600",
-        "content": ""
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635648%3Fsecret_token%3Ds-SIwwA2KYLii&color=%23ff5500"
     },
     {
         "num": 2,
@@ -33,24 +33,24 @@
         "description": "Uống trong chánh niệm giúp chúng ta trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây. Dù là nước, trà, hay trà sữa, ta đều có thể hiện diện trong từng ngụm uống, từ đó trân trọng hơn những món quà cuộc sống dành cho ta.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/506/800/600",
-        "content": "https://drive.google.com/file/d/1RbucxJrEgHkzzVOgfIR_4CD0zTfQG0Ms/view?usp=sharing"
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635645%3Fsecret_token%3Ds-A3sPA92qvFm&color=%23ff5500"
     },
     {
         "num": 4,
-        "id": "van-dong-trong-chanh-niem-podcast",
-        "name": "Vận động trong Chánh niệm", 
-        "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
-        "type": "Podcast",
-        "image_url": "https://picsum.photos/seed/500/800/600",
-        "content": ""
-    },
-    {
-        "num": 5,
-        "id": "van-dong-trong-chanh-niem-video",
+        "id": "van-dong-trong-chanh-niem",
         "name": "Vận động trong Chánh niệm", 
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
         "type": "Video",
         "image_url": "https://picsum.photos/seed/500/800/600",
         "content": "https://drive.google.com/file/d/1uV9q1sz9EUShKfiou0ehqH9KMFwc4JCB/preview"
+    },
+    {
+        "num": 5,
+        "id": "thien-10p",
+        "name": "Thiền 10 phút", 
+        "description": "Cùng Chani thực hiện bài thiền 10 phút nhé!",
+        "type": "Podcast",
+        "image_url": "https://picsum.photos/seed/500/800/600",
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635660%3Fsecret_token%3Ds-U5IEovoAloZ&color=%23ff5500"
     }
 ]

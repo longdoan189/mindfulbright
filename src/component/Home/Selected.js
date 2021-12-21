@@ -16,7 +16,6 @@ export default function Selected(props) {
     }
     else if (annoy === 'kho_tap_trung') {
         allow_posts_num.push(4);
-        allow_posts_num.push(5);
         if (time === '15' || time === '30') {
             allow_posts_num.push(2);
         }
@@ -24,7 +23,6 @@ export default function Selected(props) {
     else if (annoy === 'cang_thang' || annoy === 'kho_ngu') {
         allow_posts_num.push(1);
         allow_posts_num.push(4);
-        allow_posts_num.push(5);
         if (time === '15') {
             allow_posts_num.push(0);
             allow_posts_num.push(2);
@@ -38,7 +36,6 @@ export default function Selected(props) {
     else if (annoy === 'lo_lang') {
         allow_posts_num.push(1);
         allow_posts_num.push(4);
-        allow_posts_num.push(5);
     }
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>

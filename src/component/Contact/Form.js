@@ -36,6 +36,19 @@ const FormContact = () => {
         });
     };
 
+    const toastifyError = () => {
+        toast('Đã có lỗi xảy ra. Bạn hãy thử liên hệ chúng tôi bằng email nhé!', {
+            position: 'bottom-left',
+            autoClose: 5000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: false,
+            className: 'submit-feedback fail',
+            toastId: 'failToast'
+        });
+    };
+
     // Function called on submit that uses emailjs to send email of valid contact form
     const onSubmit = async (data) => {
         // Destrcture data object
@@ -59,6 +72,7 @@ const FormContact = () => {
             reset();
             toastifySuccess();
         } catch (e) {
+            toastifyError();
             console.log(e);
         }
     };

@@ -16,7 +16,7 @@ export default function Exercise(props) {
             return "Bạn có thể đang sử dụng tính năng chặn quảng cáo hoặc chặn theo dõi (ví dụ AdBlock hoặc Edge ở chế độ Bảo mật). Bạn có thể thử tắt nó, sau đó tải lại trang. Nếu bạn không muốn tắt nó, bạn có thể truy cập trực tiếp tại nút 'pop' ở góc trên cùng bên phải của video"
         }
         if (isShow && type === "Podcast") {
-            return "Tính năng nghe podcast đang được xây dựng nên có thể lỗi ở một số nền tảng. Bạn có thể thử nghe bằng video nhé!"
+            return "Tính năng nghe podcast đang được xây dựng nên có thể lỗi ở một số nền tảng. Bạn có thể thử các bài khác nhé!"
         }
         else {
             return ""
@@ -65,7 +65,6 @@ export default function Exercise(props) {
                 </div>
             )
         }
-        let a = ``
     }
     useEffect(() => {
         return () => {

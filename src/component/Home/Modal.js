@@ -13,7 +13,6 @@ import worry_icon from '../../assets/icons/chani worry.svg'
 import time_15 from '../../assets/icons/15 min.svg'
 import time_30 from '../../assets/icons/30 min.svg'
 import time_60 from '../../assets/icons/45 min.svg'
-
 import './Home.css'
 
 

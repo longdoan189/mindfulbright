@@ -18,7 +18,7 @@ export default function ExerciseList(props) {
                             <h3 className="text-blue text-center text-xl lg:text-2xl font-blog py-2">
                                 <b>{filtered_post.name}</b>
                             </h3>
-                            <div className='flex secondary-font text-left text-xs sm:text-base lg:text-lg font-blog py-2 h-32 lg:h-64 xl:h-48 '>
+                            <div className='flex secondary-font text-center text-xs sm:text-base lg:text-lg font-blog py-2 h-32 lg:h-64 xl:h-48 '>
                                 <p className='my-auto'>{filtered_post.description.slice(0,250)}</p>
                             </div>
                         </div>

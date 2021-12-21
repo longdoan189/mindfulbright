@@ -22,9 +22,9 @@
         "id": "tho-trong-chanh-niem",
         "name": "Thở trong Chánh niệm", 
         "description": "Thở trong Chánh niệm sẽ giúp bạn quay về an trú nơi hơi thở của mình. COVID-19 đã nhắc chúng ta nhớ đến giá trị vô cùng của hơi thở. Dù cuộc đời hỗn loạn đến đâu, ta đều có hơi thở để trở về. Thế nên bạn tôi ơi, hãy thở đi.",
-        "type": "Video",
+        "type": "Podcast",
         "image_url": "https://picsum.photos/seed/123/800/600",
-        "content": ""
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635651%3Fsecret_token%3Ds-7NEJbnj5rHH&color=%23ff5500"
     },
     {
         "num": 3,

@@ -18,7 +18,7 @@ export default function About() {
                     </div>
                     <div className='text-center sm:text-left'>
                         <h1 className='text-3xl text-blue'>Email</h1>
-                        <p className='mt-2 mb-4'><a href="mailto:MindFulbright@gmail.com">MindFulbright@gmail.com</a></p>
+                        <p className='mt-2 mb-4'><a href="mailto:mindfulbright@yandex.com">mindfulbright@yandex.com</a></p>
                     </div>
                 </div>
             </div>

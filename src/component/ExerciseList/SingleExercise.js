@@ -60,12 +60,12 @@ export default function Exercise(props) {
                     <p className="text-center text-gold cursor-pointer" onClick={() => { setShowLink(!isShowLink) }}>Không nghe được podcast này?</p>
                     <p className="text-center text-blue mx-8 sm:mx-32 lg:mx-64">{showLink(isShowLink, curExercise.type)}</p>
                     <div className={"mx-auto container-iframe-audio"}>
-                        <iframe scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/224666778" className="responsive-iframe"/>
+                        <iframe src={curExercise.content} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" autoPlay="1" className="responsive-iframe" style={{"zIndex": "-10"}}></iframe>
                     </div>
                 </div>
             )
         }
-        let a = `<iframe src={curExercise.content} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" autoPlay="1" className="responsive-iframe" style={{"zIndex": "-10"}}></iframe>`
+        let a = ``
     }
     useEffect(() => {
         return () => {

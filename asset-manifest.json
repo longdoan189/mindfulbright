@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mindfulbright/static/css/main.25827657.chunk.css",
-    "main.js": "/mindfulbright/static/js/main.7fe03828.chunk.js",
-    "main.js.map": "/mindfulbright/static/js/main.7fe03828.chunk.js.map",
+    "main.js": "/mindfulbright/static/js/main.e4e536a9.chunk.js",
+    "main.js.map": "/mindfulbright/static/js/main.e4e536a9.chunk.js.map",
     "runtime-main.js": "/mindfulbright/static/js/runtime-main.aaf440da.js",
     "runtime-main.js.map": "/mindfulbright/static/js/runtime-main.aaf440da.js.map",
     "static/css/2.e7166e2e.chunk.css": "/mindfulbright/static/css/2.e7166e2e.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.e7166e2e.chunk.css",
     "static/js/2.de25e964.chunk.js",
     "static/css/main.25827657.chunk.css",
-    "static/js/main.7fe03828.chunk.js"
+    "static/js/main.e4e536a9.chunk.js"
   ]
 }

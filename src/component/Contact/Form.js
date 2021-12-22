@@ -14,7 +14,8 @@ const FormContact = () => {
     // Function that displays a success toast on bottom right of the page when form submission is successful
     const toastifyLoading = () => {
         toast('Đang gửi', {
-            position: 'bottom-left',
+            position: 'bottom-right',
+            autoClose: 10000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
@@ -25,7 +26,7 @@ const FormContact = () => {
     };
     const toastifySuccess = () => {
         toast('Đã gửi', {
-            position: 'bottom-left',
+            position: 'bottom-right',
             autoClose: 5000,
             hideProgressBar: true,
             closeOnClick: true,
@@ -38,8 +39,8 @@ const FormContact = () => {
 
     const toastifyError = () => {
         toast('Đã có lỗi xảy ra. Bạn hãy thử liên hệ chúng tôi bằng email nhé!', {
-            position: 'bottom-left',
-            autoClose: 5000,
+            position: 'bottom-right',
+            autoClose: 10000,
             hideProgressBar: true,
             closeOnClick: true,
             pauseOnHover: true,
@@ -63,15 +64,16 @@ const FormContact = () => {
             };
             toastifyLoading();
             await emailjs.send(
-                "service_wh8j69l000000",//process.env.REACT_APP_SERVICE_ID,
-                "template_5thhm1800000",//process.env.REACT_APP_TEMPLATE_ID,
+                "service_ttw58ip",//process.env.REACT_APP_SERVICE_ID,
+                "template_700gisd",//process.env.REACT_APP_TEMPLATE_ID,
                 templateParams,
-                "user_8BiBJHhPNSfDD9EGOdnpj00000"//process.env.REACT_APP_USER_ID
+                "user_8C23bZTY7Iw48i3MBvO8m"//process.env.REACT_APP_USER_ID
             );
             toast.dismiss("loadingToast");
             reset();
             toastifySuccess();
         } catch (e) {
+            toast.dismiss("loadingToast");
             toastifyError();
             console.log(e);
         }

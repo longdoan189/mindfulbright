@@ -13,7 +13,7 @@ export default function Exercise(props) {
     const [isShowLink, setShowLink] = useState(false)
     const showLink = (isShow, type) => {
         if (isShow && type === "Video") {
-            return "Bạn có thể đang sử dụng tính năng chặn quảng cáo hoặc chặn theo dõi (ví dụ AdBlock hoặc Edge ở chế độ Bảo mật). Bạn có thể thử tắt nó, sau đó tải lại trang. Nếu bạn không muốn tắt nó, bạn có thể truy cập trực tiếp tại nút 'pop' ở góc trên cùng bên phải của video"
+            return "Bạn có thể đang sử dụng tính năng chặn quảng cáo hoặc chặn theo dõi (ad-block hoặc anti-tracker). Bạn có thể thử tắt nó, sau đó tải lại trang. Nếu bạn không muốn tắt nó, bạn có thể xem ở Google Drive tại nút 'hiện cửa sổ nhỏ mới' ở góc trên cùng bên phải của video"
         }
         if (isShow && type === "Podcast") {
             return "Tính năng nghe podcast đang được xây dựng nên có thể lỗi ở một số nền tảng. Bạn có thể thử các bài khác nhé!"

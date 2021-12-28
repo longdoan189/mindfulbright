@@ -39,7 +39,7 @@ export default function Selected(props) {
     }
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto " + (isOpen ? "" : "hidden")}>
-            <div className="relative my-auto mx-auto p-5 border w-7/8 h-screen shadow-lg rounded-md bg-white">
+            <div className="relative my-auto mx-auto p-5 border w-2/3 h-screen shadow-lg rounded-md bg-white z-10">
                 <div className='text-xl sm:text-3xl lg:text-5xl text-right mr-4'>
                     <div className='mr-16 lg:mr-32 inline-block'>
                         <span className='text-gold'>Hôm nay</span>
@@ -55,6 +55,7 @@ export default function Selected(props) {
                     <ExerciseList allow_posts_num={allow_posts_num} shall_break={true} />
                 </div>
             </div>
+            <div className='fixed inset-0' onClick={()=>{toggleOpen(false); dispatch({type: "RESET_SELECTION"})}}></div>
         </div>
     )
 }

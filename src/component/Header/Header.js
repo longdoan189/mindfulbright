@@ -82,7 +82,7 @@ export default function Header() {
                             <div className="flex space-x-12 px-24 py-16">
                                 <NavLink to="/" exact className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Nhà</NavLink>
                                 <NavLink to="/about" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Về MindFulbright</NavLink>
-                                <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Bài tập</NavLink>
+                                <NavLink to="/instruction" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Thực hành</NavLink>
                                 <NavLink to="/contact" className="text-blue hover:text-yellow-500 text-lg xl:text-xl" activeClassName="font-bold">Liên hệ</NavLink>
                             </div>
                         </div>

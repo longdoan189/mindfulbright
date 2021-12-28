@@ -25,6 +25,7 @@ const FormContact = () => {
         });
     };
     const toastifySuccess = () => {
+        localStorage.setItem("mfb_formused", Date.now())
         toast('Đã gửi', {
             position: 'bottom-right',
             autoClose: 5000,
@@ -63,6 +64,11 @@ const FormContact = () => {
                 message
             };
             toastifyLoading();
+            let last_time = localStorage.getItem("mfb_formused")
+            let current_time = Date.now()
+            if (current_time - last_time < 2590000) { //less than a month
+                throw new Error("Giới hạn 1 lần gửi form 1 người mỗi tháng")
+            }
             await emailjs.send(
                 "service_ttw58ip",//process.env.REACT_APP_SERVICE_ID,
                 "template_700gisd",//process.env.REACT_APP_TEMPLATE_ID,

@@ -13,8 +13,8 @@ export default function About() {
                     <span className='text-blue'>MindFulbright</span>
                     <span className='text-gold'>.</span>
                 </h1>
-                <p className='text-base lg:text-lg mt-8 mx-4 sm:ml-4 sm:mr-12'>Chúng mình là một nhóm cán bộ, giảng viên, và sinh viên đại học tại Đại học Fulbright Việt Nam. Chúng mình thiết kế MindFulbright với mong muốn đem đến cho bạn một không gian để nghỉ ngơi, thông qua việc thực hành Chánh niệm. </p>
-                <p className='text-base lg:text-lg mt-8 mx-4 sm:ml-4 sm:mr-12'>Chánh niệm là chú tâm vào ở đây và ngay lúc này. Từ chú tâm, ta có được sự tỉnh thức và hướng tới sự chữa lành.</p>
+                <p className='text-base lg:text-lg mt-8 mx-4 sm:ml-4 sm:mr-12 text-justify'>Chúng mình là một nhóm cán bộ, giảng viên, và sinh viên đại học tại Đại học Fulbright Việt Nam. Chúng mình thiết kế MindFulbright với mong muốn đem đến cho bạn một không gian để nghỉ ngơi, thông qua việc thực hành Chánh niệm. </p>
+                <p className='text-base lg:text-lg mt-8 mx-4 sm:ml-4 sm:mr-12 text-justify'>Chánh niệm là chú tâm vào ở đây và ngay lúc này. Từ chú tâm, ta có được sự tỉnh thức và hướng tới sự chữa lành.</p>
                 <button className="text-sm md:text-lg mt-12 mb-8 text-white bg-red-500 hover:text-yellow-500 px-8 py-3 border rounded-lg mx-auto block" onClick={() => {setShowThankNote(true)}}><b>Quan tâm</b></button>
                 <p className={'text-base mt-8 mx-4 sm:ml-4 sm:mr-12 text-center text-gold ' + (showThankNote ? 'visible' : 'invisible')}>Cám ơn bạn đã quan tâm và ủng hộ MindFulbright!</p>
                 <p className={'text-base mx-4 sm:ml-4 sm:mr-12 text-center text-gold ' + (showThankNote ? 'visible' : 'invisible')}>Tính năng này hiện đang được phát triển</p>

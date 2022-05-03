@@ -119,7 +119,7 @@ const FormContact = () => {
                                     required: true,
                                     pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                                 })}
-                                placeholder={"exmaple@mail.com"}
+                                placeholder={"example@mail.com"}
                             />
                             {errors.email && (
                                 <span className='errorMessage text-red-500'>{"Địa chỉ thư phải hợp lệ"}</span>

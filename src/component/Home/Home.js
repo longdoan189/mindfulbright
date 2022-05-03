@@ -2,20 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import Modal from './Modal'
 import picture from '../../assets/icons/chani calm.svg'
-import Selected from './Selected'
 import './Home.css'
 
 export default function Home() {
-    const { counter } = useSelector(state => state.SeletionReducer);
     const [openModal, setOpenModal] = useState(false);
-    const [openSelected, setOpenSelected] = useState(false);
 
-    useEffect(() => {
-        if (counter === 3) {
-            setOpenModal(false);
-            setOpenSelected(true);
-        }
-    },[counter])
     return (
         <div>
             <div className='grid sm:grid-cols-2'>
@@ -28,8 +19,7 @@ export default function Home() {
                     <img src={picture} alt="MindFulbright" className='pic-size'/>
                 </div>
             </div>
-            <Selected isOpen={openSelected} toggleOpen={setOpenSelected}/>
-            
+          
             <Modal isModalOpen={openModal} toggleModal={setOpenModal}/>
         </div>
     )

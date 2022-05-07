@@ -162,8 +162,10 @@ export default function Modal(props) {
                         </div>
                     </div>
                     }
-                    { openSelected &&
-                    <div className="mt-32 px-7 py-3  text-center">
+                </div>
+            </div>
+            { openSelected &&
+                    <div className="relative my-auto mx-auto shadow-lg rounded-md bg-white z-10 py-8  text-center">
                         <div className='text-xl sm:text-2xl lg:text-5xl text-center mr-4'>
                             <div className='inline-block'>
                                 <span className='text-gold'>Hôm nay</span>
@@ -182,9 +184,7 @@ export default function Modal(props) {
                             </div>
                         </div>
                     </div>
-                    }
-                </div>
-            </div>
+                }
             <div className='fixed inset-0' onClick={()=>{resetOpen()}}></div>
         </div>
 

@@ -153,7 +153,7 @@ const FormContact = () => {
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-blue">
                             {"Nội dung"}
                         </label>
-                        <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"
+                        <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-32 resize-none" id="message"
                             rows={3}
                             name='message'
                             {...register('message', {
@@ -166,7 +166,7 @@ const FormContact = () => {
                 </div>
                 <div className="md:flex md:items-center">
                     <div className="md:w-full">
-                        <button className="shadow background-gold hover:text-yellow-500 font-bold py-2 px-4 rounded w-full" type="submit">
+                        <button className="shadow background-gold hover:text-yellow-500 font-bold py-4 px-4 rounded w-full" type="submit">
                             Gửi
                         </button>
                     </div>

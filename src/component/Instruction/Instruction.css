@@ -1,3 +1,64 @@
+.sliderWrapper {
+    padding:18px 18px 0px 0px;
+}
+.sliderWrapper .slider {
+    margin-bottom:15px;
+    position:relative;
+    text-align:left;
+}
+.sliderWrapper .slider .ui-slider-handle {
+    background-color:#00196E;
+    border-radius:50%;
+    cursor:default;
+    height:26px;
+    position:absolute;
+    width:26px;
+}
+.sliderWrapper .slider .ui-slider-range {
+    position:absolute;
+    font-size:.7em;
+    display:block;
+    border:0;
+    background:#FFAD1C 0 0
+}
+.sliderWrapper .slider.ui-slider-horizontal {
+    background-color:#6d6d6d;
+    border-radius:5px;
+    height:8px;
+}
+.sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle {
+    top:-8px;
+    margin-left:-6px
+}
+.sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle:hover {
+    cursor:pointer
+}
+.sliderWrapper .slider.ui-slider-horizontal .ui-slider-range {
+    top:0;height:100%
+}
+.sliderWrapper .slider.ui-slider-horizontal .ui-slider-range-min {
+    left:0
+}
+.sliderWrapper .slider.ui-slider-horizontal .ui-slider-range-max {
+    right:0
+}
+.sliderWrapper .legend label {
+    color:#a2a2a2;
+    display:inline-block;
+    font-size:18px;
+    text-align:center;
+    padding-left: 10px;
+}
+.sliderWrapper .legend label:first-child {
+    left:-12px;
+    position:relative;
+    text-align:left;
+}
+.sliderWrapper .legend label:last-child {
+    position:relative;
+    right:-18px;
+    text-align:right
+}
 .height-80vh {
     height: 60vh;
 }

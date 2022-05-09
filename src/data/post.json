@@ -6,8 +6,9 @@
         "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một 'trạm dừng' cùng 5 nhịp thở sâu.",
         "type": "Video",
         "image_url": "https://picsum.photos/seed/802/800/600",
-        "content": "https://drive.google.com/file/d/16WkipXtV1yDvX2F6umSFh85JbbWJAcax/preview"
-    },
+        "content": "https://drive.google.com/file/d/16WkipXtV1yDvX2F6umSFh85JbbWJAcax/preview",
+        "duration": "1"
+    }, 
     {
         "num": 1,
         "id": "thu-gian-sau",
@@ -15,7 +16,8 @@
         "description": "Thông qua các bài tập thư giãn giúp bạn giải toả căng thẳng cả trong cơ thể lẫn tâm trí, thư giãn sâu là cánh cửa dẫn bạn đến sự tồn tại trọn vẹn.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/200/800/600",
-        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635648%3Fsecret_token%3Ds-SIwwA2KYLii&color=%23ff5500"
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635648%3Fsecret_token%3Ds-SIwwA2KYLii&color=%23ff5500",
+        "duration": "1346"
     },
     {
         "num": 2,
@@ -24,7 +26,8 @@
         "description": "Thở trong Chánh niệm sẽ giúp bạn quay về an trú nơi hơi thở của mình. COVID-19 đã nhắc chúng ta nhớ đến giá trị vô cùng của hơi thở. Dù cuộc đời hỗn loạn đến đâu, ta đều có hơi thở để trở về. Thế nên bạn tôi ơi, hãy thở đi.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/123/800/600",
-        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635651%3Fsecret_token%3Ds-7NEJbnj5rHH&color=%23ff5500"
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635651%3Fsecret_token%3Ds-7NEJbnj5rHH&color=%23ff5500",
+        "duration": "134"
     },
     {
         "num": 3,
@@ -33,7 +36,8 @@
         "description": "Uống trong chánh niệm giúp chúng ta trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây. Dù là nước, trà, hay trà sữa, ta đều có thể hiện diện trong từng ngụm uống, từ đó trân trọng hơn những món quà cuộc sống dành cho ta.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/506/800/600",
-        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635645%3Fsecret_token%3Ds-A3sPA92qvFm&color=%23ff5500"
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635645%3Fsecret_token%3Ds-A3sPA92qvFm&color=%23ff5500",
+        "duration": "1"
     },
     {
         "num": 4,
@@ -42,7 +46,8 @@
         "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
         "type": "Video",
         "image_url": "https://picsum.photos/seed/500/800/600",
-        "content": "https://drive.google.com/file/d/1cculOFk5iqQreSPs-_JpsclgvEpQKYoG/preview"
+        "content": "https://drive.google.com/file/d/1cculOFk5iqQreSPs-_JpsclgvEpQKYoG/preview",
+        "duration": "1346"
     },
     {
         "num": 5,
@@ -51,7 +56,8 @@
         "description": "Cuộc đời này ta có bao nhiêu lần 10 phút? Và bao nhiêu trong số đó là những giây phút nghỉ ngơi? Bài Thiền 10 phút sẽ giúp bạn tạm quên đi bộn bề cuộc sống và có 10 phút được lắng với chính mình.",
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/500/800/600",
-        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635660%3Fsecret_token%3Ds-U5IEovoAloZ&color=%23ff5500"
+        "content": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635660%3Fsecret_token%3Ds-U5IEovoAloZ&color=%23ff5500",
+        "duration": "1"
     },
     {
         "num": 6,
@@ -60,6 +66,7 @@
         "description": "Trong cuộc sống hàng ngày, cơ thể của ta phải tích tụ nhiều mỏi mệt, qua cách ta ăn, ngủ, nghỉ. Dần dần, sức khỏe ta bị hao mòn, thể lực ta bớt dẻo dai. Thiền Buông Thư, hay Thư giãn Toàn thân, bằng cách để cho toàn thân được buông lỏng và gửi tình thương đến từng tế bào, sẽ giúp thân tâm ta được nghỉ ngơi, chữa lành, và hồi phục. ",
         "type": "Video",
         "image_url": "https://picsum.photos/seed/208/800/600",
-        "content": "https://www.youtube.com/embed/rz4THbW-HoQ"
+        "content": "https://www.youtube.com/embed/rz4THbW-HoQ",
+        "duration": "1346"
     }
 ]

@@ -3,11 +3,27 @@ import { NavLink } from 'react-router-dom'
 import DATA from '../../data/post.json'
 
 export default function ExerciseList(props) {
-    const {cur_category, allow_posts_num, shall_break, className} = props
+    const checkTime = (option, list_time) => {
+        let the_time = '0'
+        if (option === '15') {
+            the_time = '1'
+        }
+        else if (option === '30') {
+            the_time = '3'
+        }
+        else if (option === '45') {
+            the_time = '4'
+        }
+        else if (option === '60') {
+            the_time = '6'
+        }
+        return list_time.includes(the_time)
+    }
+    const {cur_category, cur_time, allow_posts_num, shall_break, className} = props
     return (
         <div className={ className + ' grid ' + (shall_break ? 'sm:grid-cols-2 lg:grid-cols-3' : 'grid-flow-col')}>
             {DATA &&
-                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_num === undefined || allow_posts_num.includes(ap.num)))}).map((filtered_post, index) => (
+                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_num === undefined || allow_posts_num.includes(ap.num)) && (cur_time === undefined || checkTime(cur_time, ap.duration)) )}).map((filtered_post, index) => (
                     <article className='px-4 py-4' key={filtered_post.name}>
                         <img
                             src={filtered_post.image_url}

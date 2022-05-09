@@ -37,7 +37,7 @@ export default function Header() {
         start_show = true;
     }
     return (
-        <nav className="bg-white header_desktop fixed w-full">
+        <nav className="bg-white header_desktop fixed w-full z-10">
             <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16 sm:h-24 2xl:h-32">
                     {/* Mobile menu button*/}

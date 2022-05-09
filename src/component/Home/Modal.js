@@ -54,7 +54,7 @@ export default function Modal(props) {
     const { feeling, annoy, time } = useSelector(state => state.SeletionReducer);
 
     return (
-        <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full "+(props.isModalOpen ? "" : "hidden")}>
+        <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-10 "+(props.isModalOpen ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border sm:w-2/3 h-half shadow-lg rounded-md bg-white z-10">
                 <div className="mt-3 text-left">
                     { openWelcome &&
@@ -86,7 +86,7 @@ export default function Modal(props) {
                                 <p>Buồn</p>
                             </button>
                         </div>
-                        <div className='grid sm:grid-cols-2'>
+                        <div className='grid grid-cols-2'>
                             <div className='sm:ml-16'>
                                 <button className="text-sm md:text-lg mt-5 btn-blue px-8 py-3 border rounded-full block" onClick={() => {setOpenFeeling(false); setOpenWelcome(true);}}><b>Quay lại</b></button>
                             </div>
@@ -123,7 +123,7 @@ export default function Modal(props) {
                                 <p>Khó tập trung</p>
                             </button>
                         </div>
-                        <div className='grid sm:grid-cols-2'>
+                        <div className='grid grid-cols-2'>
                             <div className='sm:ml-16'>
                                 <button className="text-sm md:text-lg mt-5 btn-blue px-8 py-3 border rounded-full block" onClick={() => {setOpenAnnoy(false); setOpenFeeling(true);}}><b>Quay lại</b></button>
                             </div>
@@ -152,7 +152,7 @@ export default function Modal(props) {
                                 <p>60 phút</p>
                             </button>
                         </div>
-                        <div className='grid sm:grid-cols-2'>
+                        <div className='grid grid-cols-2'>
                             <div className='sm:ml-16'>
                                 <button className="text-sm md:text-lg mt-5 btn-blue px-8 py-3 border rounded-full block" onClick={() => {setOpenTime(false); setOpenAnnoy(true);}}><b>Quay lại</b></button>
                             </div>
@@ -172,10 +172,10 @@ export default function Modal(props) {
                                 <span className='text-blue'>, bạn có thể thử</span>
                             </div>
                         </div>
-                        <div className='overflow-y-scroll mt-3' style={{height: '80%'}}>
+                        <div className=' mt-3' style={{height: '80%'}}>
                             <Selected/>
                         </div>
-                        <div className='grid sm:grid-cols-2'>
+                        <div className='grid grid-cols-2'>
                             <div className='sm:ml-16'>
                                 <button className="text-sm md:text-lg mt-5 btn-blue px-8 py-3 border rounded-full block" onClick={() => {setOpenSelected(false); setOpenTime(true);}}><b>Quay lại</b></button>
                             </div>

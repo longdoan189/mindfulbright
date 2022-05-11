@@ -25,15 +25,15 @@ export default function Instruction() {
                         <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{ left: '100%' }} onClick={() => {set_time('60')}}/>
                     </div>
                     <div className="legend">
-                        <label style={{ width: '16.7%' }} onClick={() => {set_time('15')}}>15'</label>
-                        <label style={{ width: '33.3%' }} onClick={() => {set_time('30')}}>30'</label>
-                        <label style={{ width: '33.3%' }} onClick={() => {set_time('45')}}>45'</label>
-                        <label style={{ width: '16.7%' }} onClick={() => {set_time('60')}}>60'</label>
+                        <label style={{ width: '16.7%' }} onClick={() => {set_time('15')}} className={cur_time==='15' ? "text-red-500" : "text-blue-700"}>15'</label>
+                        <label style={{ width: '33.3%' }} onClick={() => {set_time('30')}} className={cur_time==='30' ? "text-red-500" : "text-blue-700"}>30'</label>
+                        <label style={{ width: '33.3%' }} onClick={() => {set_time('45')}} className={cur_time==='45' ? "text-red-500" : "text-blue-700"}>45'</label>
+                        <label style={{ width: '16.7%' }} onClick={() => {set_time('60')}} className={cur_time==='60' ? "text-red-500" : "text-blue-700"}>60'</label>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 gap-2 sm:col-start-2 lg:col-start-4 mx-4'>
-                    <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 w-full py-3 border rounded-lg mx-auto block" onClick={() => { set_category("Video") }}>Video</button>
-                    <button className="text-sm md:text-lg mt-5 background-gold hover:text-yellow-500 w-full py-3 border rounded-lg mx-auto block" onClick={() => { set_category("Podcast") }}>Podcast</button>
+                    <button className={"text-sm md:text-lg mt-5 text-white hover:text-yellow-500 w-full py-3 border rounded-lg mx-auto block " + (cur_category==='Video' ? "bg-red-500" : "background-gold")} onClick={() => { set_category("Video") }}>Video</button>
+                    <button className={"text-sm md:text-lg mt-5 text-white hover:text-yellow-500 w-full py-3 border rounded-lg mx-auto block " + (cur_category==='Podcast' ? "bg-red-500" : "background-gold")} onClick={() => { set_category("Podcast") }}>Podcast</button>
                 </div>
             </div>
             <ExerciseList className="height-80vh" cur_category={cur_category} cur_time={cur_time} shall_break={true} />

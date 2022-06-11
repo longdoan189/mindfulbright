@@ -1,8 +1,8 @@
 .sliderWrapper {
-    padding:18px 18px 0px 0px;
+    padding:36px 18px 0px 0px;
 }
 .sliderWrapper .slider {
-    margin-bottom:15px;
+    margin-bottom:10px;
     position:relative;
     text-align:left;
 }
@@ -10,18 +10,17 @@
     background-color:#00196E;
     border-radius:50%;
     cursor:default;
-    height:26px;
+    height:28px;
     position:absolute;
-    width:26px;
+    width:28px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
 }
 
-
-.sliderWrapper .slider .ui-slider-handle .unselected-handle {
-    
-}
-
-.sliderWrapper .slider .ui-slider-handle .selected-handle {
-    background-color:#F56565;
+.selected-handle {
+    color: red !important; 
 }
 
 .sliderWrapper .slider .ui-slider-range {
@@ -37,7 +36,7 @@
     height:8px;
 }
 .sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle {
-    top:-8px;
+    top:-10px;
     margin-left:-6px
 }
 .sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle:hover {

@@ -17,19 +17,20 @@ export default function Instruction() {
                 </select>
                 */}
                 <div id="duration-wrapper" className="sidebar_wrapper sliderWrapper ml-6 lg:col-span-2 ">
-                    <div id="duration-slider" className="slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                        <div className="ui-slider-range ui-corner-all ui-widget-header" style={{ left: '0%', width: '100%' }} />
-                        <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{ left: '0%' }} onClick={() => {set_time('15')}} />
-                        <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{ left: '33.3%' }} onClick={() => {set_time('30')}}/>
-                        <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{ left: '66.7%' }} onClick={() => {set_time('45')}}  />
-                        <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{ left: '100%' }} onClick={() => {set_time('60')}}/>
+                    <div id="duration-slider" className="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content">
+                        <div className="ui-slider-range ui-widget-header" style={{ left: '0%', width: '100%' }} />
+                            <span tabIndex={0} className={cur_time==='15' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '0%' }} onClick={() => {set_time('15')}}>15'</span>
+                            <span tabIndex={0} className={cur_time==='30' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '33.3%' }} onClick={() => {set_time('30')}}>30'</span>
+                            <span tabIndex={0} className={cur_time==='45' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '66.7%' }} onClick={() => {set_time('45')}}>45'</span>
+                            <span tabIndex={0} className={cur_time==='60' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '100%' }} onClick={() => {set_time('60')}}>60'</span>
                     </div>
+                    {/**
                     <div className="legend">
                         <label style={{ width: '16.7%' }} onClick={() => {set_time('15')}} className={cur_time==='15' ? "text-red-500" : "text-blue-700"}><b>15'</b></label>
                         <label style={{ width: '33.3%' }} onClick={() => {set_time('30')}} className={cur_time==='30' ? "text-red-500" : "text-blue-700"}><b>30'</b></label>
                         <label style={{ width: '33.3%' }} onClick={() => {set_time('45')}} className={cur_time==='45' ? "text-red-500" : "text-blue-700"}><b>45'</b></label>
                         <label style={{ width: '16.7%' }} onClick={() => {set_time('60')}} className={cur_time==='60' ? "text-red-500" : "text-blue-700"}><b>60'</b></label>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className='grid grid-cols-2 gap-2 sm:col-start-2 lg:col-start-4 mx-4'>
                     <button className={"text-sm md:text-lg mt-5 text-white hover:text-yellow-500 w-full py-3 border rounded-lg mx-auto block " + (cur_category==='Video' ? "bg-red-500" : "background-gold")} onClick={() => { set_category("Video") }}>Video</button>

@@ -56,9 +56,9 @@ export default function Modal(props) {
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-10 "+(props.isModalOpen ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border sm:w-2/3 h-half shadow-lg rounded-md bg-white z-10">
-                <div className="mt-3 text-left">
+                <div className="text-center vertical-centre">
                     { openWelcome &&
-                    <div className='mt-2 px-7 py-3 text-center'>
+                    <div className='px-7 text-center mt-16'>
                         <h1 className="text-3xl text-center">
                             <span className='text-gold'>MindFulbright</span>
                             <span className='text-blue'>.</span>

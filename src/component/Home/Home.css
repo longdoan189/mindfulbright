@@ -2,13 +2,21 @@
     position: absolute;
     top: 50%;
     transform: translate(25%,-50%);
+    height: 70%;
 }
+
+.vertical-centre {
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+  }
 
 /*mobile h-half*/
 @media only screen and (max-width: 640px) {
     .h-half {
         position: absolute;
         transform: translate(0%,-30%);
+        height: 50%;
     }
 }
 .pic-size {

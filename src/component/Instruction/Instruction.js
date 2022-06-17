@@ -18,7 +18,7 @@ export default function Instruction() {
                 */}
                 <div id="duration-wrapper" className="sidebar_wrapper sliderWrapper ml-6 lg:col-span-2 ">
                     <div id="duration-slider" className="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content">
-                        <div className="ui-slider-range ui-widget-header" style={{ left: '0%', width: '100%' }} />
+                        <div className="ui-slider-range ui-widget-header" style={{ "left": '0%', "width": '100%' }} />
                             <span tabIndex={0} className={cur_time==='15' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '0%' }} onClick={() => {set_time('15')}}>15'</span>
                             <span tabIndex={0} className={cur_time==='30' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '33.3%' }} onClick={() => {set_time('30')}}>30'</span>
                             <span tabIndex={0} className={cur_time==='45' ? "ui-slider-handle selected-handle" : "ui-slider-handle"} style={{ left: '66.7%' }} onClick={() => {set_time('45')}}>45'</span>

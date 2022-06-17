@@ -55,11 +55,11 @@ export default function Modal(props) {
 
     return (
         <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-10 "+(props.isModalOpen ? "" : "hidden")}>
-            <div className="relative my-auto mx-auto p-5 border sm:w-2/3 h-half shadow-lg rounded-md bg-white z-10">
+            <div className="relative my-auto mx-auto p-5 border sm:w-2/3 h-half shadow-lg rounded-md bg-white z-10 w-full">
                 <div className="text-center vertical-centre">
                     { openWelcome &&
-                    <div className='px-7 text-center mt-16'>
-                        <h1 className="text-3xl text-center">
+                    <div className='px-7 text-center sm:mt-24 lg:mt-32'>
+                        <h1 className="text-xl sm:text-2xl lg:text-3xl text-center">
                             <span className='text-gold'>MindFulbright</span>
                             <span className='text-blue'>.</span>
                             <span className='text-blue'> xin chào, </span>
@@ -69,10 +69,10 @@ export default function Modal(props) {
                     }
                     { openFeeling &&
                     <div className="mt-2 px-7 py-3 text-center">
-                        <p className="text-2xl text-blue mb-2">
+                        <p className="text-base sm:text-2xl text-blue mb-2">
                             Hôm nay bạn thấy như thế nào?
                         </p>
-                        <div className='grid grid-flow-col h-32 items-center'>
+                        <div className='grid grid-flow-col h-32 items-center mt-2 my-6 sm:my-16'>
                             <button onClick={() => changeFeelingAnnoy("vui")} className={'' + (feeling==="vui" ? 'h-24' : 'transform hover:scale-150 h-16')}>
                                 <img src={happy_icon} className='h-full mx-auto' alt="Vui"/>
                                 <p>Vui</p>
@@ -98,10 +98,10 @@ export default function Modal(props) {
                     }
                     { openAnnoy &&
                     <div className="mt-2 px-7 py-3 text-center">
-                        <p className="text-2xl text-blue mb-2">
+                        <p className="text-base sm:text-2xl text-blue mb-2">
                             Điều gì đang làm phiền bạn?
                         </p>
-                        <div className='grid grid-flow-col h-32 items-center'>
+                        <div className='grid grid-flow-col h-32 items-center mt-2 my-6 sm:my-16'>
                             <button onClick={() => changeAnnoyTime("kho_thu_gian")} className={'' + (annoy==="kho_thu_gian" ? 'h-24' : 'transform hover:scale-150 h-16')}>
                                 <img src={headache_icon} className='h-full mx-auto' alt="Khó thư giãn"/>
                                 <p>Khó thư giãn</p>
@@ -135,10 +135,10 @@ export default function Modal(props) {
                     }
                     { openTime &&
                     <div className="mt-2 px-7 py-3  text-center">
-                        <p className="text-2xl text-blue mb-2">
+                        <p className="text-base sm:text-2xl text-blue mb-2">
                             Bạn có thể ở đây với mình bao lâu?
                         </p>
-                        <div className='grid grid-flow-col h-32 items-center'>
+                        <div className='grid grid-flow-col h-32 items-center mt-2 my-6 sm:my-16'>
                             <button onClick={() => changeTime("15")} className={'' + (time==="15" ? 'h-24' : 'transform hover:scale-150 h-16')}>
                                 <img src={time_15} className='h-full mx-auto' alt="15"/>
                                 <p>15 phút</p>

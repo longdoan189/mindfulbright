@@ -10,12 +10,11 @@
     background-color:#00196E;
     border-radius:50%;
     cursor:default;
-    height:28px;
     position:absolute;
     width:28px;
     color: white;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: sub;
     font-size: 1rem;
 }
 
@@ -37,7 +36,7 @@
 }
 .sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle {
     top:-10px;
-    margin-left:-6px
+    margin-left:-6px;
 }
 .sliderWrapper .slider.ui-slider-horizontal .ui-slider-handle:hover {
     cursor:pointer

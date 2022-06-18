@@ -54,7 +54,7 @@ export default function Modal(props) {
     const { feeling, annoy, time } = useSelector(state => state.SeletionReducer);
 
     return (
-        <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-10 "+(props.isModalOpen ? "" : "hidden")}>
+        <div className={"fixed inset-0 bg-gray-600 bg-opacity-50 h-full w-full z-10 overflow-y-auto " +( (props.isModalOpen) ? "" : "hidden")}>
             <div className="relative my-auto mx-auto p-5 border sm:w-2/3 h-half shadow-lg rounded-md bg-white z-10 w-full">
                 <div className="text-center vertical-centre">
                     { openWelcome &&
@@ -165,7 +165,7 @@ export default function Modal(props) {
                 </div>
             </div>
             { openSelected &&
-                    <div className="relative my-auto mx-auto shadow-lg rounded-md bg-white z-10 py-8  text-center">
+                <div className="relative my-auto mx-auto shadow-lg rounded-md bg-white z-10 py-8 text-center">
                         <div className='text-xl sm:text-2xl lg:text-5xl text-center mr-4'>
                             <div className='inline-block'>
                                 <span className='text-gold'>Hôm nay</span>
@@ -183,9 +183,14 @@ export default function Modal(props) {
                                 <button className="text-sm md:text-lg mt-5 btn-blue px-8 py-3 border rounded-full block" onClick={resetOpen}><b>Xong</b></button>
                             </div>
                         </div>
-                    </div>
-                }
-            <div className='fixed inset-0' onClick={()=>{resetOpen()}}></div>
+                </div>
+            } 
+            {(!openSelected ?
+                <div className='fixed inset-0' onClick={()=>{
+                    resetOpen()
+                }}></div> :
+                <div></div>
+            )}
         </div>
 
 

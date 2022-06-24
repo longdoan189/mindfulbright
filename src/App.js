@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Switch } from "react-router-dom";
+import { Router, Switch } from "react-router-dom";
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Instruction from './component/Instruction/Instruction'
@@ -13,7 +13,7 @@ export const history = createHashHistory();
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router history={history}>
         <Header/>
         <div className="pt-20 sm:pt-32"></div>
         <Switch>

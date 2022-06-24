@@ -5,8 +5,7 @@ import './Instruction.css'
 export default function Instruction() {
     const [cur_category, set_category] = useState("Video");
     const [cur_time, set_time] = useState("15");
-    console.log(cur_time, cur_category);
-
+    
     return (
         <div className="mx-2 sm:mx-8 lg:mx-12">
             <div className='sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-2'>

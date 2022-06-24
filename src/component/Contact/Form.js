@@ -39,7 +39,7 @@ const FormContact = () => {
     };
 
     const toastifyError = () => {
-        toast('Đã có lỗi xảy ra. Bạn hãy thử liên hệ chúng tôi bằng email nhé!', {
+        toast('Đã có lỗi xảy ra. Bạn hãy thử liên hệ chúng tôi bằng email mindfulbright@gmail.com nhé!', {
             position: 'bottom-right',
             autoClose: 10000,
             hideProgressBar: true,

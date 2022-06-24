@@ -10,15 +10,15 @@ export default function About() {
                 <div className='grid lg:grid-cols-2 mt-12'>
                     <div className='text-center sm:text-left'>
                         <h1 className='text-3xl text-blue'>Địa chỉ </h1>
-                        <p className='mt-2 mb-4'>105 Tôn Dật Tiên, Phường Tân Phú, <br/> Quận 7, TpHCM, Việt Nam</p>
+                        <p className='mt-2 mb-4'>D2.01, Riverside Residence, 192 Nguyễn Lương Bằng, Q.7, TPHCM</p>
                     </div>
                     <div className='text-center sm:text-left'>
                         <h1 className='text-3xl text-blue'>Liên lạc</h1>
-                        <p className='mt-2 mb-4'>+84-3584-3932</p>
+                        <p className='mt-2 mb-4'><a href="Tel:+84-93-172-4995">+84-93-172-4995</a></p>
                     </div>
                     <div className='text-center sm:text-left'>
                         <h1 className='text-3xl text-blue'>Email</h1>
-                        <p className='mt-2 mb-4'><a href="mailto:mindfulbright@outlook.com">mindfulbright@outlook.com</a></p>
+                        <p className='mt-2 mb-4'><a href="mailto:mindfulbright@gmail.com">mindfulbright@gmail.com</a></p>
                     </div>
                 </div>
             </div>

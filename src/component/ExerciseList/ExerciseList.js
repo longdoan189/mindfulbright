@@ -35,7 +35,10 @@ export default function ExerciseList(props) {
                                 <b>{filtered_post.name}</b>
                             </h3>
                             <div className='flex secondary-font text-center text-xs lg:text-base xl:text-lg font-blog py-2 h-32 lg:h-64 xl:h-48 '>
-                                <p className='my-auto'>{filtered_post.description.slice(0,250)}...</p>
+                                <p className='my-auto'>
+                                    <span>{filtered_post.description.slice(0,250)}</span>
+                                    {filtered_post.description.length > 250 ? <span>...</span> : <span></span>}
+                                </p>
                             </div>
                         </div>
                         

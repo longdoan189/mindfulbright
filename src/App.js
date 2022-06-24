@@ -1,14 +1,14 @@
 import './App.css';
-import { Router, Switch } from "react-router-dom";
+import { Router, Switch } from "react-router";
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Instruction from './component/Instruction/Instruction'
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Exercise from './component/ExerciseList/SingleExercise';
-import { createHashHistory } from 'history';
+import { createBrowserHistory } from 'history';
 
-export const history = createHashHistory();
+export const history = createBrowserHistory();
 
 function App() {
   return (

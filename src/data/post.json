@@ -1,14 +1,14 @@
 [
     {
         "num": 0,
-        "id": "tho-ngon-tay",
-        "name": "Thở ngón tay", 
-        "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một 'trạm dừng' cùng 5 nhịp thở sâu.",
+        "id": "van-dong-trong-chanh-niem",
+        "name": "Vận động trong Chánh niệm", 
+        "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
         "type": "Video",
-        "image_url": "https://picsum.photos/seed/802/800/600",
-        "content": ["https://drive.google.com/file/d/16WkipXtV1yDvX2F6umSFh85JbbWJAcax/preview"],
-        "duration": "1"
-    }, 
+        "image_url": "https://picsum.photos/seed/500/800/600",
+        "content": ["https://drive.google.com/file/d/1cculOFk5iqQreSPs-_JpsclgvEpQKYoG/preview","https://www.youtube.com/embed/E-gEO12BVNU"],
+        "duration": "1346"
+    },
     {
         "num": 1,
         "id": "thu-gian-sau",
@@ -17,7 +17,7 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/200/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635648%3Fsecret_token%3Ds-SIwwA2KYLii&color=%23ff5500"],
-        "duration": "1346"
+        "duration": "1"
     },
     {
         "num": 2,
@@ -27,7 +27,7 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/123/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635651%3Fsecret_token%3Ds-7NEJbnj5rHH&color=%23ff5500"],
-        "duration": "134"
+        "duration": "1"
     },
     {
         "num": 3,
@@ -41,14 +41,14 @@
     },
     {
         "num": 4,
-        "id": "van-dong-trong-chanh-niem",
-        "name": "Vận động trong Chánh niệm", 
-        "description": "Cơ thể luôn vận động và đồng hành cùng ta, nhưng đôi khi ta quên dành sự dịu dàng cho nó. Vận động trong chánh niệm như một lời nhắc nhẹ nhàng, cho phép cơ thể của ta được nghỉ ngơi, trân trọng, và yêu thương.",
+        "id": "tho-ngon-tay",
+        "name": "Thở ngón tay", 
+        "description": "Thở 5 Ngón tay là kỹ thuật chánh niệm giúp người tập có một 'trạm dừng' cùng 5 nhịp thở sâu.",
         "type": "Video",
-        "image_url": "https://picsum.photos/seed/500/800/600",
-        "content": ["https://drive.google.com/file/d/1cculOFk5iqQreSPs-_JpsclgvEpQKYoG/preview"],
-        "duration": "1346"
-    },
+        "image_url": "https://picsum.photos/seed/802/800/600",
+        "content": ["https://drive.google.com/file/d/16WkipXtV1yDvX2F6umSFh85JbbWJAcax/preview"],
+        "duration": "1"
+    }, 
     {
         "num": 5,
         "id": "thien-10p",
@@ -67,17 +67,17 @@
         "type": "Video",
         "image_url": "https://picsum.photos/seed/208/800/600",
         "content": ["https://www.youtube.com/embed/rz4THbW-HoQ"],
-        "duration": "1346"
+        "duration": "134"
     },
     {
         "num": 7,
-        "id": "mindful-singing",
-        "name": "Mindful Singing",
-        "description": "",
+        "id": "thien-ca",
+        "name": "Thiền ca",
+        "description": "Khi được hát lên bằng tất cả sự thực tập, những bài thiền ca có công năng nuôi dưỡng chánh niệm, đánh thức hạt giống tuệ giác trong tâm, làm lớn lên hạnh phúc của người thực tập. Thân tâm ta từ đó cũng trở nên khoẻ nhẹ, an lành.",
         "type": "Video",
         "image_url": "https://picsum.photos/seed/100/800/600",
         "content": ["https://www.youtube.com/embed/videoseries?list=PLfBwqAYsQBdxdAikH3B8Jv-oyg4ODwetx"],
-        "duration": "34"
+        "duration": "13"
     },
     {
         "num": 8,
@@ -87,6 +87,6 @@
         "type": "Video",
         "image_url": "https://picsum.photos/seed/100/800/600",
         "content": ["https://www.youtube.com/embed/FUJ9WPgZj7s"],
-        "duration": "13"
+        "duration": "1"
     }
 ]

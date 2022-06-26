@@ -1,5 +1,5 @@
 import './App.css';
-import { Router, Switch } from "react-router";
+import { Router, Switch } from "react-router-dom";
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Instruction from './component/Instruction/Instruction'

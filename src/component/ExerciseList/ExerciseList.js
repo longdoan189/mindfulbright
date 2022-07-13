@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import DATA from '../../data/post.json'
 
 export default function ExerciseList(props) {
+    //2 check function, convert filter to value to single digits for including check
     const checkTime = (option, list_time) => {
         let the_time = '0'
         if (option === '15') {
@@ -19,11 +20,32 @@ export default function ExerciseList(props) {
         }
         return list_time.includes(the_time)
     }
-    const {cur_category, cur_time, allow_posts_num, shall_break, className} = props
+
+    const checkAnnoy = (option, list_annoy) => {
+        let the_feeling = '0'
+        if (option === 'kho_thu_gian') {
+            the_feeling = '1'
+        }
+        else if (option === 'cang_thang') {
+            the_feeling = '2'
+        }
+        else if (option === 'lo_lang') {
+            the_feeling = '3'
+        }
+        else if (option === 'kho_ngu') {
+            the_feeling = '4'
+        }
+        else if (option === 'kho_tap_trung') {
+            the_feeling = '5'
+        }
+        return true //list_annoy.includes(the_feeling) //activate when value added
+    }
+
+    const {cur_category, cur_time, cur_annoy, allow_posts_num, shall_break, className} = props
     return (
         <div className={ className + ' grid ' + (shall_break ? 'sm:grid-cols-2 lg:grid-cols-3' : 'grid-flow-col')}>
             {DATA &&
-                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_num === undefined || allow_posts_num.includes(ap.num)) && (cur_time === undefined || checkTime(cur_time, ap.duration)) )}).map((filtered_post, index) => (
+                DATA.filter(ap => { return ((ap.type === cur_category || cur_category === undefined) && (allow_posts_num === undefined || allow_posts_num.includes(ap.num)) && (cur_time === undefined || checkTime(cur_time, ap.duration)) && (cur_annoy === undefined || checkAnnoy(cur_annoy, ap.feeling)) )}).map((filtered_post, index) => (
                     <article className='px-4 py-4' key={filtered_post.name}>
                         <img
                             src={filtered_post.image_url}

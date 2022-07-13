@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import {history} from "../../App"
+import { history } from "../../App"
 import DATA from '../../data/post.json'
 import './SingleExercise.css'
 
@@ -35,43 +35,56 @@ export default function Exercise(props) {
             )
         }
         else {
-            for (let eachExercise of curExercise.content) {
-                console.log(eachExercise)
-                if (curExercise.type === "Video") {
-                    if (curExercise.ratio === "4:3") {
-                        frame = "container-iframe-4-3"
-                    }
-                    else if (curExercise.ratio === "3:2") {
-                        frame = "container-iframe-3-2"
-                    }
-                    else {
-                        frame = "container-iframe-16-9"
-                    }
-                    return (
-                        <div className="w-100 my-8">
-                            <p className="text-center text-gold cursor-pointer" onClick={() => { setShowLink(!isShowLink) }}>Không xem được video này?</p>
-                            <p className="text-center text-blue mx-8 sm:mx-32 lg:mx-64">{showLink(isShowLink, curExercise.type)}</p>
-                            <div className={"mx-auto " + frame}>
-                                <iframe src={eachExercise} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" allow="autoplay" className="responsive-iframe"></iframe>
-                            </div>
-                        </div>
-                    )
+            if (curExercise.type === "Video") {
+                if (curExercise.ratio === "4:3") {
+                    frame = "container-iframe-4-3"
                 }
-        
-                if (curExercise.type === "Podcast") {
-                    return (
-                        <div className="w-100 my-8">
-                            <p className="text-center text-gold cursor-pointer" onClick={() => { setShowLink(!isShowLink) }}>Không nghe được podcast này?</p>
-                            <p className="text-center text-blue mx-8 sm:mx-32 lg:mx-64">{showLink(isShowLink, curExercise.type)}</p>
-                            <div className={"mx-auto container-iframe-audio"}>
-                                <iframe src={eachExercise} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" autoPlay="1" className="responsive-iframe"></iframe>
-                            </div>
-                        </div>
-                    )
+                else if (curExercise.ratio === "3:2") {
+                    frame = "container-iframe-3-2"
                 }
+                else {
+                    frame = "container-iframe-16-9"
+                }
+                return (
+                    <div>
+                        {curExercise.content.map((eachExercise, index) => {
+                            return (
+                                <div>
+                                    <div className="w-100 my-8">
+                                        <p className="text-center text-gold cursor-pointer" onClick={() => { setShowLink(!isShowLink) }}>Không xem được video này?</p>
+                                        <p className="text-center text-blue mx-8 sm:mx-32 lg:mx-64">{showLink(isShowLink, curExercise.type)}</p>
+                                        <div className={"mx-auto " + frame}>
+                                            <iframe src={eachExercise} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" allow="autoplay" className="responsive-iframe"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                )
+            }
+
+            if (curExercise.type === "Podcast") {
+                return (
+                    <div>
+                        {curExercise.content.map((eachExercise, index) => {
+                            return (
+                                <div>
+                                    <div className="w-100 my-8">
+                                        <p className="text-center text-gold cursor-pointer" onClick={() => { setShowLink(!isShowLink) }}>Không nghe được podcast này?</p>
+                                        <p className="text-center text-blue mx-8 sm:mx-32 lg:mx-64">{showLink(isShowLink, curExercise.type)}</p>
+                                        <div className={"mx-auto container-iframe-audio"}>
+                                            <iframe src={eachExercise} frameBorder="0" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true" title="video" autoPlay="1" className="responsive-iframe"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                )
             }
         }
-        
+
     }
     useEffect(() => {
         return () => {
@@ -86,7 +99,7 @@ export default function Exercise(props) {
             </div>
             <h1 className="text-xl text-justify mx-8 sm:mx-20 lg:mx-40 my-8">{curExercise.description}</h1>
             {renderContent()}
-            <button className="text-sm background-gold hover:text-yellow-500 px-3 py-3 border rounded-lg mx-auto block" onClick={history.goBack}>
+            <button className="text-sm background-gold hover:text-yellow-500 px-3 py-3 mb-4 border rounded-lg mx-auto block" onClick={history.goBack}>
                 <b>Xem các bài tập khác</b>
             </button>
         </div>

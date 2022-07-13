@@ -7,7 +7,8 @@
         "type": "Video",
         "image_url": "https://picsum.photos/seed/500/800/600",
         "content": ["https://drive.google.com/file/d/1cculOFk5iqQreSPs-_JpsclgvEpQKYoG/preview","https://www.youtube.com/embed/E-gEO12BVNU"],
-        "duration": "1346"
+        "duration": "1346",
+        "feeling": "1"
     },
     {
         "num": 1,
@@ -17,7 +18,8 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/200/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635648%3Fsecret_token%3Ds-SIwwA2KYLii&color=%23ff5500"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     },
     {
         "num": 2,
@@ -27,7 +29,8 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/123/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635651%3Fsecret_token%3Ds-7NEJbnj5rHH&color=%23ff5500"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     },
     {
         "num": 3,
@@ -37,7 +40,8 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/506/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635645%3Fsecret_token%3Ds-A3sPA92qvFm&color=%23ff5500"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     },
     {
         "num": 4,
@@ -47,7 +51,8 @@
         "type": "Video",
         "image_url": "https://picsum.photos/seed/802/800/600",
         "content": ["https://drive.google.com/file/d/16WkipXtV1yDvX2F6umSFh85JbbWJAcax/preview"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     }, 
     {
         "num": 5,
@@ -57,7 +62,8 @@
         "type": "Podcast",
         "image_url": "https://picsum.photos/seed/500/800/600",
         "content": ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181635660%3Fsecret_token%3Ds-U5IEovoAloZ&color=%23ff5500"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     },
     {
         "num": 6,
@@ -67,7 +73,8 @@
         "type": "Video",
         "image_url": "https://picsum.photos/seed/208/800/600",
         "content": ["https://www.youtube.com/embed/rz4THbW-HoQ"],
-        "duration": "134"
+        "duration": "1346",
+        "feeling": ""
     },
     {
         "num": 7,
@@ -75,9 +82,10 @@
         "name": "Thiền ca",
         "description": "Khi được hát lên bằng tất cả sự thực tập, những bài thiền ca có công năng nuôi dưỡng chánh niệm, đánh thức hạt giống tuệ giác trong tâm, làm lớn lên hạnh phúc của người thực tập. Thân tâm ta từ đó cũng trở nên khoẻ nhẹ, an lành.",
         "type": "Video",
-        "image_url": "https://picsum.photos/seed/100/800/600",
+        "image_url": "https://drive.google.com/uc?export=view&id=1E6ZFd0qHP88iGKppF4diiht5n5VY9CNB",
         "content": ["https://www.youtube.com/embed/videoseries?list=PLfBwqAYsQBdxdAikH3B8Jv-oyg4ODwetx"],
-        "duration": "13"
+        "duration": "13",
+        "feeling": ""
     },
     {
         "num": 8,
@@ -85,8 +93,9 @@
         "name": "Uống nước trong chánh niệm",
         "description": "Uống nước trong chánh niệm giúp chúng ta trọn vẹn trong từng giây phút hiện tại, bây giờ, và ở đây.",
         "type": "Video",
-        "image_url": "https://picsum.photos/seed/100/800/600",
+        "image_url": "https://drive.google.com/uc?export=view&id=1e9OBpaV-SuE8BEslc5MGQMyvhj-vGAwd",
         "content": ["https://www.youtube.com/embed/FUJ9WPgZj7s"],
-        "duration": "1"
+        "duration": "1",
+        "feeling": ""
     }
 ]

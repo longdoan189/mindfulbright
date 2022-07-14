@@ -22,7 +22,7 @@ export default function ExerciseList(props) {
     }
 
     const checkAnnoy = (option, list_annoy) => {
-        let not_use = false;
+        let not_use = true;
         let the_feeling = '0'
         if (option === 'kho_thu_gian') {
             the_feeling = '1'

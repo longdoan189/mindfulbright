@@ -22,6 +22,7 @@ export default function ExerciseList(props) {
     }
 
     const checkAnnoy = (option, list_annoy) => {
+        let not_use = false;
         let the_feeling = '0'
         if (option === 'kho_thu_gian') {
             the_feeling = '1'
@@ -38,7 +39,7 @@ export default function ExerciseList(props) {
         else if (option === 'kho_tap_trung') {
             the_feeling = '5'
         }
-        return true //list_annoy.includes(the_feeling) //activate when value added
+        return list_annoy.includes(the_feeling) || not_use
     }
 
     const {cur_category, cur_time, cur_annoy, allow_posts_num, shall_break, className} = props
